@@ -1,0 +1,54 @@
+$brand-1: #23362B;
+$brand-2: #1BB28C;
+$brand-3: #D4984C;
+$brand-4: #913931;
+$brand-5: #9BC7C5;
+$brand-6: #EFEEEA;
+
+$font-family-sans-serif: 'Halant', sans-serif;
+$headings-font-family: 'Pacifico', cursive;
+$headings-color: $brand-3;
+$container-max-widths: ( md: 640px );
+$mark-bg: rgba($brand-3, 0.33);
+$link-color: $brand-3;
+
+// add 6 and 7th level spacing and 8th
+$spacers: (6: (1rem * 4.5), 7: (1rem * 6), 8: (1rem * 9), 9: (1rem * 10) );
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+body {
+    padding: 5rem 0;
+    background-color: rgba($brand-5, 0.15);
+}
+.custom-divider {
+    &:last-child {
+        margin-bottom: 25px !important;
+    }
+}
+p, li {
+    @include media-breakpoint-up(md) {
+        font-size: 1.25rem;
+        &.lead {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+.lead {
+    strong, .font-weight-bold {
+        color: $brand-4;
+    }
+}
+
+.e-mail:before {
+    content: attr(data-website) "\0040" attr(data-user);
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
+@keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+}

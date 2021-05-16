@@ -1,0 +1,141 @@
+<template>
+  <div class="container">
+    <img src="/i/sterling-strong.png" class="mw-100 d-block mb-5 mx-auto" style="width: 350px;">
+    <h1 class="display-4">
+      Sterling Strong &#10084;
+    </h1>
+    <p class="lead">
+      It's with heavy hearts, we share the news that our sweet girl, Sterling Nova Lynn Raspe, 8 months and 3 days, of Gary, Indiana, passed away peacefully in her parent's arms, surrounded by family at 09:22 AM on May 11th. Born to Madeline Marie Raspe of Crown Point, Indiana and Kingsley Aaron Stafford Raspe, originally of Tamworth, England, at 08:28 AM on September 8th 2020, at Advocate Children's Hospital in Oak Lawn, Illinois.
+    </p>
+
+    <p>Sterling's eight months on earth were quite unique, but her story didn't start there. Her story began when her mom and dad met in 2015. Sterling's life was the missing piece to their parent's love story. As if sharing the other half of Banky's "Balloon Girl" tattoo to remember the loss of their parents wasn't fate enough, Sterling was the little girl with the heart-shaped balloon tying Kingsley and Maddie together for life.</p>
+
+    <p>At her 21-week anatomy scan, Sterling was diagnosed with hypoplastic left heart syndrome variant (HLHS), a rare type of congenital heart disease (CHD). At three months old, she was diagnosed with Kabuki Syndrome, a rare multi-system-affecting genetic condition that can affect the entire body. Sterling, the HLHS Warrior, was also Sterling the Kabuki Queen. Despite being 1 in 700,000,000+, 207 days in the PCICU, 9 surgeries, there was not a second that went by that Sterling was not smothered in love, prayer, or celebration. Although Sterling's life was short, her fight and strength touched the hearts of strangers from all four corners of the world.</p>
+
+    <p>Sterling Nova Lynn Raspe's legacy will live on through the many lives she touched. She was the embodiment of strength, fight, love, hope, peace, and joy. Against all the odds, she taught us to smile through the hard times, laugh at the inappropriate times, love without limits, and see the beauty and worth in all things big and small. She helped raise awareness and shined a light on HLHS, CHD, Kabuki Syndrome, and other rare diseases. Sterling taught us all something.</p>
+
+    <p>The word Sterling comes from the word "steorra", meaning star. The word "nova" means new. Sterling Nova. A little star made new and whole in heaven. A nova is when a star's gas builds up and triggers an explosion making it shine up to a million times brighter than normal.</p>
+
+    <p>May we all remember her life and be "Sterling Strong" because her life and impact on this earth and our hearts was a supernova. May she forever Rest In Peace with our creator who created her perfectly imperfect.</p>
+
+    <p>Sterling's service will be held at Geisen Funeral Home in Crown Point, Indiana, from 2–7 PM on Tuesday, May 18th. We encourage you to wear fun, bright colours and/or "Sterling Strong" gear to represent her strong and colourful life.</p>
+
+    <p><a href="/files/sterling-strong-swag-design-files.pdf" download>Download the "Sterling Strong"</a> logos and make your own swag!</p>
+
+    <img src="/i/banksys-balloon-girl.jpg" class="mw-100 my-5">
+
+    <horizontal-line />
+
+    <h2 class="display-4">
+      Sterling Strong Foundation
+    </h2>
+    <p class="lead">
+      To honour Sterling's legacy, Madeline & Kingsley will be creating the <span class="font-weight-bold">Sterling Strong Foundation<sup class="small"><abbr title="to be confirmed">*</abbr></sup></span>. Our goal is to help families in a similar situation to theirs: rare/chronic illnesses, long/multiple ICU stays, multi-system affecting conditions, etc. with a few things which we both personally took comfort from during Sterling's 207 days in the ICU.
+    </p>
+
+    <p>Things such as:</p>
+
+    <ul>
+      <li>
+        <p class="mb-0 text-uppercase">
+          Paying a bill or two
+        </p>
+        <p class="small">
+          It was difficult to make sure all our I's were dotted and our T's were crossed in the ICU, not to mention adding an entire life outside of the hospital into the mix. Our monthly mortgage payment was paid twice by the generosity of others. It was a tremendous help for us.
+        </p>
+      </li>
+      <li>
+        <p class="mb-0 text-uppercase">
+          comfort items
+        </p>
+        <p class="small">
+          We purchased a mini projector and setup a little cinema in Sterling's ICU room. You wouldn't think you could have a 70" private cinema in an ICU room, would you? <small>(we binge-watched Jersey Shore, et al)</small>. Things to help make parents/patients feel more comfortable/more at home, given the chaos they're experiencing.
+        </p>
+      </li>
+      <li>
+        <p class="mb-0 text-uppercase">
+          self care items
+        </p>
+        <p class="small">
+          We realised taking care of yourself is just as important as taking care of your child. Your child feeds of your energy, and it's amazing what getting a pedicure/manicure, hair cut, new products to try, etc. does to the mood. Every mother, father, carer needs to be pampered.
+        </p>
+      </li>
+      <li>
+        <p class="mb-0 text-uppercase">
+          items for baby's development
+        </p>
+        <p class="small">
+          Nurses do a fantastic job, but they can't be everywhere and do everything (they're superheroes, but not that type of superhero). We purchased a sound recorder and recorded ourselves reading all her books to her, we recorded albums, messages from family members around the world, prayers, <abbr title="including: Half Manne, Half Cocaine and The Alchemist take on the UNDEAD in this INSTANT CLASSIC First issue --- As the Undead try to move into the Casino game, a turf war ensues and our Anti-Hereoes Freddie “Half Manne, Half Cocaine” Gibbs and The Alchemist travel to the City of Sin to settle their debts.">you name it</abbr>, and asked the nurses to play it whenever we weren't around. We were told it was a huge hit with her, and it helped ease our minds that she was taking comfort from our voices when we weren't around. Baby's also get bored of staring at the ceiling all day. Her aunt purchased some a night light that illuminated the room in stars and moons. Sterling. Was. Obsessed. Oh, and don't get us started on her pizza.
+        </p>
+      </li>
+      <li>
+        <p class="mb-0 text-uppercase">
+          gift/meal cards
+        </p>
+        <p class="small">
+          Everyone knows hospital food sucks. We learnt that Chick-fil-A and Frank's RedHot makes anything delicious, but sometimes a meal outdoors, or a delivered meal does wonders.
+        </p>
+      </li>
+      <li>
+        <p class="mb-0 font-italic">
+          and many other helpful deeds...
+        </p>
+      </li>
+    </ul>
+
+    <p class="lead mt-6 text-center">
+      Any philanthropists who would be interesting getting Stering's Foundation off the ground are encouraged to email <abbr title="you have to manually type me into your email field"><span class="d-inline-block mark e-mail" data-user="olleh" data-website="hs.yelsgnik" /></abbr>.
+    </p>
+
+    <horizontal-line />
+
+    <h2 class="display-4">
+      "Sterling Sessions"
+    </h2>
+    <p class="lead">
+      Music was a huge part of Sterling's life even before she was born.
+    </p>
+    <p>We knew her birth and the first few weeks were going to be chaos. we had both read about baby's exposed to music in utero were soothed by the same music as newborns. It was worth a shot! Lacksley Castell's "Speak Softly" was Sterling's record of choice (she was probably bored of hearing it by the time she was born). We played it whenever she would have any procedure. We think it helped calm her, and us.</p>
+
+    <div class="text-center my-5">
+      <iframe
+        align="middle"
+        class="mx-auto"
+        src="https://open.spotify.com/embed/track/7iyqxcCTBIdHm7vJZoX40D"
+        width="300"
+        height="80"
+        frameborder="0"
+        allowtransparency="true"
+        allow="encrypted-media"
+      />
+    </div>
+
+    <p>A lovely music therapist at the hospital offered to customise "Speak Softly" into "Speak Softly Sterling" and asked us to write our own lyrics specifically for Sterling. It was a hit! It's since grown and we produced 3 songs together, Sterling's heart beat is in a few of them!</p>
+
+    <figure class="figure d-block text-center my-5">
+      <a target="_blank" href="https://kingsley.sh/posts/2021/the-sterling-sessions" class="">
+        <img src="https://api.sw.ink/v0/swink/344ZBEDRS9/image?darkColor=808080&textColor=000000" class="figure-img" style="width: 300px;" alt="">
+      </a>
+      <figcaption class="figure-caption">
+        Give them a listen! Take a pic or click the QR code.
+      </figcaption>
+    </figure>
+
+    <p class="text-center lead">
+      We only made 3 songs at the hospital, and we would like to make enough to make an album. Sterling's own reggae album, with songs we played to her throughout her life, with new lyrics to reflect her story. <span class="font-weight-bold">Reggae is the music of healing</span>. If you're interested in working together, please email <abbr title="you have to manually type me into your email field"><span class="d-inline-block mark e-mail" data-user="olleh" data-website="hs.yelsgnik" /></abbr>.
+    </p>
+    <p class="text-center display-4 h1 my-7">
+      Let's keep Sterling's legacy a jammin'
+    </p>
+
+    <horizontal-line />
+  </div>
+</template>
+
+<script>
+export default {}
+</script>
+
+<style>
+
+</style>
