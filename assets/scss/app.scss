@@ -11,6 +11,7 @@ $headings-color: $brand-3;
 $container-max-widths: ( md: 640px );
 $mark-bg: rgba($brand-3, 0.33);
 $link-color: $brand-3;
+$font-size-base: 1.25rem;
 
 // add 6 and 7th level spacing and 8th
 $spacers: (6: (1rem * 4.5), 7: (1rem * 6), 8: (1rem * 9), 9: (1rem * 10) );
@@ -21,19 +22,28 @@ body {
     padding: 5rem 0;
     background-color: rgba($brand-5, 0.15);
 }
+
 .custom-divider {
     &:last-child {
         margin-bottom: 25px !important;
     }
 }
-p, li {
-    @include media-breakpoint-up(md) {
-        font-size: 1.25rem;
-        &.lead {
-            font-size: 1.5rem;
+ul {
+    @extend .list-unstyled;
+    padding-left: 1.75rem;
+    li {
+        position: relative;
+
+        &:before {
+            content: "❦";
+            color: $brand-3;
+            position: absolute;
+            top: 0;
+            left: -1.5rem;
         }
     }
 }
+
 
 .lead {
     strong, .font-weight-bold {

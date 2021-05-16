@@ -30,7 +30,7 @@
       Sterling Strong Foundation
     </h2>
     <p class="lead">
-      To honour Sterling's legacy, Madeline & Kingsley will be creating the <span class="font-weight-bold">Sterling Strong Foundation<sup class="small"><abbr title="to be confirmed">*</abbr></sup></span>. Our goal is to help families in a similar situation to theirs: rare/chronic illnesses, long/multiple ICU stays, multi-system affecting conditions, etc. with a few things which we both personally took comfort from during Sterling's 207 days in the ICU.
+      To honour her legacy, Sterling's mom &amp; I will be creating the <span class="font-weight-bold">Sterling Strong Foundation<sup class="small"><abbr title="to be confirmed">*</abbr></sup></span>. Our goal will be to help families in a similar situation to ours: rare/chronic illnesses, long/multiple ICU stays, multi-system affecting conditions, treatment outside of home state, etc. with a few things which we both personally took comfort from during Sterling's 207 days in the ICU.
     </p>
 
     <p>Things such as:</p>
@@ -41,7 +41,7 @@
           Paying a bill or two
         </p>
         <p class="small">
-          It was difficult to make sure all our I's were dotted and our T's were crossed in the ICU, not to mention adding an entire life outside of the hospital into the mix. Our monthly mortgage payment was paid twice by the generosity of others. It was a tremendous help for us.
+          It was difficult to make sure all our I's were dotted and our T's were crossed in the ICU, not to mention adding an entire life outside of the hospital into the mix. Our monthly mortgage payment was paid twice by the generosity of others. It was a tremendous help for us. Paying the water bill, a car payment, home insurance, etc. anything helps.
         </p>
       </li>
       <li>
@@ -57,7 +57,7 @@
           self care items
         </p>
         <p class="small">
-          We realised taking care of yourself is just as important as taking care of your child. Your child feeds of your energy, and it's amazing what getting a pedicure/manicure, hair cut, new products to try, etc. does to the mood. Every mother, father, carer needs to be pampered.
+          We realised taking care of yourself is just as important as taking care of your child. Your child feeds off of your energy, and it's amazing what getting a pedicure/manicure, hair cut, new products to try, etc. does to the mood. Every mother, father, carer, etc. needs some self-care here and there.
         </p>
       </li>
       <li>
@@ -77,6 +77,14 @@
         </p>
       </li>
       <li>
+        <p class="mb-0 text-uppercase">
+          arts &amp; crafts
+        </p>
+        <p class="small">
+          We coloured a lot. I took up painting during one stay. Fun fact, I purchased the most difficult colouring book I could find when Maddie was pregnant. It just happened to be on Japanese-style art, of course it had to be full of Kabuki references. Staying mindless helps block out the beeps and dings.
+        </p>
+      </li>
+      <li>
         <p class="mb-0 font-italic">
           and many other helpful deeds...
         </p>
@@ -84,7 +92,7 @@
     </ul>
 
     <p class="lead mt-6 text-center">
-      Any philanthropists who would be interesting getting Stering's Foundation off the ground are encouraged to email <abbr title="you have to manually type me into your email field"><span class="d-inline-block mark e-mail" data-user="olleh" data-website="hs.yelsgnik" /></abbr>.
+      Any philanthropists/donors interested in helping Stering's Foundation get off the ground are encouraged to email <abbr title="you have to manually type me into your email field"><span class="d-inline-block mark e-mail" data-user="olleh" data-website="hs.yelsgnik" /></abbr>
     </p>
 
     <horizontal-line />
@@ -114,7 +122,7 @@
 
     <figure class="figure d-block text-center my-5">
       <a target="_blank" href="https://kingsley.sh/posts/2021/the-sterling-sessions" class="">
-        <img src="https://api.sw.ink/v0/swink/344ZBEDRS9/image?darkColor=808080&textColor=000000" class="figure-img" style="width: 300px;" alt="">
+        <img src="/i/sterling-sessions-qr-code.svg" class="figure-img" style="width: 300px;" alt="">
       </a>
       <figcaption class="figure-caption">
         Give them a listen! Take a pic or click the QR code.
@@ -122,7 +130,7 @@
     </figure>
 
     <p class="text-center lead">
-      We only made 3 songs at the hospital, and we would like to make enough to make an album. Sterling's own reggae album, with songs we played to her throughout her life, with new lyrics to reflect her story. <span class="font-weight-bold">Reggae is the music of healing</span>. If you're interested in working together, please email <abbr title="you have to manually type me into your email field"><span class="d-inline-block mark e-mail" data-user="olleh" data-website="hs.yelsgnik" /></abbr>.
+      We only made 3 songs at the hospital, and we would like to make enough to make an album. Sterling's own reggae album, with songs we played to her throughout her life, with new lyrics to reflect her story. <span class="font-weight-bold">Reggae is the music of healing</span>. If you're interested in working together, please email <abbr title="you have to manually type me into your email field"><span class="d-inline-block mark e-mail" data-user="olleh" data-website="hs.yelsgnik" /></abbr>
     </p>
     <p class="text-center display-4 h1 my-7">
       Let's keep Sterling's legacy a jammin'
