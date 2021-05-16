@@ -28,6 +28,16 @@ body {
         margin-bottom: 25px !important;
     }
 }
+
+h1 {
+    @extend .display-2;
+    @include media-breakpoint-up(md) {
+        font-size: 4.5rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+}
+
 ul {
     @extend .list-unstyled;
     padding-left: 1.75rem;
