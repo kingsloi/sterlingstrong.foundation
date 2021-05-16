@@ -2,7 +2,7 @@
   <div class="container">
     <img src="/i/sterling-strong.png" class="mw-100 d-block mb-5 mx-auto" style="width: 350px;">
     <h1 class="display-4">
-      Sterling Strong &#10084;
+      Sterling Strong &#10084;&#xFE0E;
     </h1>
     <p class="lead">
       It's with heavy hearts, we share the news that our sweet girl, Sterling Nova Lynn Raspe, 8 months and 3 days, of Gary, Indiana, passed away peacefully in her parent's arms, surrounded by family at 09:22 AM on May 11th. Born to Madeline Marie Raspe of Crown Point, Indiana and Kingsley Aaron Stafford Raspe, originally of Tamworth, England, at 08:28 AM on September 8th 2020, at Advocate Children's Hospital in Oak Lawn, Illinois.
