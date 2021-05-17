@@ -2,7 +2,7 @@
   <div class="container">
     <img src="/i/sterling-strong.png" class="mw-100 d-block mb-5 mx-auto" style="width: 350px;">
     <h1>
-      Sterling <br class="d-xs-block d-sm-block d-md-none" />Strong &#10084;&#xFE0E;
+      Sterling <br class="d-xs-block d-sm-block d-md-none">Strong &#10084;&#xFE0E;
     </h1>
     <p class="lead">
       It's with heavy hearts, we share the news that our sweet girl, Sterling Nova Lynn Raspe, 8 months and 3 days, of Gary, Indiana, passed away peacefully in her parent's arms, surrounded by family at 09:22 AM on May 11th. Born to Madeline Marie Raspe of Crown Point, Indiana and Kingsley Aaron Stafford Raspe, originally of Tamworth, England, at 08:28 AM on September 8th 2020, at Advocate Children's Hospital in Oak Lawn, Illinois.
@@ -22,7 +22,7 @@
 
     <p><a href="/files/sterling-strong-swag-design-files.pdf" download>Download the "Sterling Strong"</a> logos and make your own swag!</p>
 
-    <img src="/i/banksys-balloon-girl.jpg" class="mw-100 my-5">
+    <img src="/i/banksys-balloon-girl.gif" class="mw-100 my-5">
 
     <horizontal-line />
 
@@ -103,7 +103,7 @@
     <p class="lead">
       Music was a huge part of Sterling's life even before she was born.
     </p>
-    <p>We knew her birth and the first few weeks were going to be chaos. we had both read about baby's exposed to music in utero were soothed by the same music as newborns. It was worth a shot! Lacksley Castell's "Speak Softly" was Sterling's record of choice (she was probably bored of hearing it by the time she was born). We played it whenever she would have any procedure. We think it helped calm her, and us.</p>
+    <p>We knew her birth and the first few weeks were going to be chaos. We had both read about baby's exposed to music in utero were soothed by the same music as newborns. It was worth a shot! Lacksley Castell's "Speak Softly" was Sterling's record of choice (she was probably bored of hearing it by the time she was born). We played it whenever she would have any procedure. We think it helped calm her, and us.</p>
 
     <div class="text-center my-5">
       <iframe
@@ -120,7 +120,7 @@
 
     <p>A lovely music therapist at the hospital offered to customise "Speak Softly" into "Speak Softly Sterling" and asked us to write our own lyrics specifically for Sterling. It was a hit! It's since grown and we produced 3 songs together, Sterling's heart beat is in a few of them!</p>
 
-    <figure class="figure d-block text-center my-5">
+    <figure id="qrcode" class="figure d-block text-center my-5">
       <a target="_blank" href="https://kingsley.sh/posts/2021/the-sterling-sessions" class="">
         <img src="/i/sterling-sessions-qr-code.svg" class="figure-img" style="width: 300px;" alt="">
       </a>

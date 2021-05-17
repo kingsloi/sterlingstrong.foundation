@@ -38,6 +38,17 @@ h1 {
     }
 }
 
+#qrcode {
+    a {
+        &:hover {
+            img {
+                transform: scale(1.05);
+            }
+        }
+    }
+}
+
+
 ul {
     @extend .list-unstyled;
     padding-left: 1.75rem;
