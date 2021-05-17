@@ -38,6 +38,14 @@ h1 {
     }
 }
 
+.mission-ampersand {
+    color: $brand-4;
+    vertical-align: middle;
+    font-size: 175%;
+    line-height: 0;
+    font-weight: bold;
+}
+
 #qrcode {
     a {
         &:hover {

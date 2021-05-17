@@ -20,9 +20,16 @@
 
     <p>Sterling's service will be held at Geisen Funeral Home in Crown Point, Indiana, from 2–7 PM on Tuesday, May 18th. We encourage you to wear fun, bright colours and/or "Sterling Strong" gear to represent her strong and colourful life.</p>
 
-    <p><a href="/files/sterling-strong-swag-design-files.pdf" download>Download the "Sterling Strong"</a> logos and make your own swag!</p>
+    <p class="mb-0">
+      <a href="/files/sterling-strong-swag-design-files.pdf" download>Download the "Sterling Strong"</a> logos and make your own swag!
+    </p>
 
-    <img src="/i/banksys-balloon-girl.gif" class="mw-100 my-5">
+    <figure class="figure mt-5 mb-4">
+      <img src="/i/banksys-balloon-girl.gif" class="mw-100">
+      <figcaption class="figure-caption text-center" style="font-size: 65%;">
+        photos by Wendy Swanson Photography
+      </figcaption>
+    </figure>
 
     <horizontal-line />
 
@@ -30,7 +37,7 @@
       Sterling Strong Foundation
     </h2>
     <p class="lead">
-      To honour her legacy, Sterling's mom &amp; I will be creating the <span class="font-weight-bold">Sterling Strong Foundation<sup class="small"><abbr title="to be confirmed">*</abbr></sup></span>. Our goal will be to help families in a similar situation to ours: rare/chronic illnesses, long/multiple ICU stays, multi-system affecting conditions, treatment outside of home state, etc. with a few things which we both personally took comfort from during Sterling's 207 days in the ICU.
+      To honour her legacy, Sterling's mom &amp; I will be creating the <span class="font-weight-bold">Sterling Strong Foundation<sup class="small"><abbr title="to be confirmed">*</abbr></sup></span>. Our goals will be to help families in a similar situation to ours: rare/chronic illnesses, long/multiple ICU stays, multi-system affecting conditions, treatment outside of home state, etc. with a few things which we both personally took comfort from during Sterling's 207 days in the ICU, <span class="mission-ampersand">&amp;</span> help bring awareness to, and be an advocates of, congenital heart disease (CHD), Kabuki syndrome, Isomerism/Heterotaxy, and other rare diseases.
     </p>
 
     <p>Things such as:</p>
