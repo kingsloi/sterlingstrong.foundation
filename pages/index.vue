@@ -19,7 +19,7 @@
     <p>May we all remember her life and be "Sterling Strong" because her life and impact on this earth and our hearts was a supernova. May she forever Rest In Peace with our creator who created her perfectly imperfect.</p>
 
     <p class="lead mb-0">
-      Sterling's service was held at Geisen Funeral Home in Crown Point, Indiana, at 2–7 PM on Tuesday, May 18th. Thank you to everyone who has helped support Sterling, us, and our families.
+      Sterling's service was held at Geisen Funeral Home in Crown Point, Indiana, at 2–7 PM on Tuesday, May 18th. Thank you to everyone who has helped support Sterling, us, and our families during the past year. We couldn't have done it without <em>you</em>.
     </p>
 
     <figure class="figure mt-5 mb-4">
@@ -46,7 +46,7 @@
           Paying a bill or two
         </p>
         <p class="small">
-          It was difficult to make sure all our I's were dotted and our T's were crossed in the ICU, not to mention adding an entire life outside of the hospital into the mix. Our monthly mortgage payment was paid twice by the generosity of others. It was a tremendous help for us. Paying the water bill, a car payment, home insurance, etc. anything helps.
+          It was difficult to make sure all our I's were dotted and our T's were crossed in the ICU, not to mention adding an entire life outside of the hospital into the mix. Our monthly mortgage payment was paid twice by the generosity of others. It was a tremendous help for us. Maybe paying the water bill, a car payment, home insurance, etc., the smallest of thing can really make the biggest of difference.
         </p>
       </li>
       <li>
@@ -54,7 +54,7 @@
           comfort items
         </p>
         <p class="small">
-          We purchased a mini projector and setup a little cinema in Sterling's ICU room. You wouldn't think you could have a 70" private cinema in an ICU room, would you? <small>(we binge-watched Jersey Shore, et al)</small>. Things to help make parents/patients feel more comfortable/more at home, given the chaos they're experiencing.
+          We purchased a mini projector and setup a little cinema in Sterling's ICU room. You wouldn't think you could have a 70" private cinema in an ICU room, would you? <small>(we binge-watched Jersey Shore, et al)</small>. Things to help make parents/patients feel more comfortable/more at home, given the chaos.
         </p>
       </li>
       <li>
@@ -113,7 +113,7 @@
         <img src="/i/sterling-strong-swag.png" class="mw-100 p-6">
       </a>
       <figcaption class="figure-caption text-center mt-0 w-75 mx-auto">
-        Checkout the <a href="https://www.bonfire.com/store/sterling-strong/" target="_blank">Sterling Strong Swag</a>. Purchases will go towards Sterling's Foundation.
+        Check out the <a href="https://www.bonfire.com/store/sterling-strong/" target="_blank">Sterling Strong</a> swag. Purchases will go towards Sterling's Foundation.
       </figcaption>
     </figure>
 
@@ -160,7 +160,10 @@
     <horizontal-line />
 
     <p class="lead text-center">
-      If Sterling could talk now, she would say these were some of her favourite songs.
+      If Sterling could talk now, she would say these were some of her favourite songs (or maybe her parents' favourite songs?). I wonder if it's because reggae is relatable to Sterling's life; beautiful songs about pain and suffering wrapped up in an upbeat tempo, and enjoyed for decades.
+    </p>
+    <p class="lead text-center">
+      May they bring you smiles like they brought us.
     </p>
     <div class="text-center my-5">
       <iframe
@@ -172,9 +175,8 @@
         allow="encrypted-media"
       />
     </div>
-
     <p class="text-center display-4 h1 my-7">
-      Let's keep Sterling's legacy a jammin'
+      Let's keep Sterling's <br>legacy a jammin'
     </p>
     <horizontal-line />
   </div>
