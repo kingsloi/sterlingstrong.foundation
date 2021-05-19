@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+#app-container {
+    background-color: #913931 !important;
+    color: #D4984C;
+}
+#app-container footer span a {
+    visibility: hidden;
+    display: none;
+}
+
+#app-container footer span:after {
+    text-align: center;
+    display: block;
+    content: "Gabe @ owncast.online came in clutch and donated (and helped me with streaming this) to me/us/Sterling, thanks Gabe!";
+}
+
+#top-content header {
+    background-color: #913931;
+}
+#top-content header h1 {
+    color: #D4984C;
+    font-family: 'Pacifico', cursive;
+    text-transform: lowercase;
+}
+
+ #logo-container {
+    background-image: url(https://sterlingstrong.life/logo);
+    background-color: transparent;
+}
+
+.user-content-header .streamer-name {
+    font-family: 'Pacifico', cursive;
+    color: #D4984C;
+}
+
+#extra-user-content h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+.user-social-item {
+    padding: 5px;
+    background-color: #fff;
+}
+
+#stream-summary,
+#extra-user-content p {
+    font-family: monospace;
+}
+
+.chat #chat-container-wrap, .chat #user-options-container {
+    display:none !important;
+}
+
+@media only screen and (min-width: 600px) {
+    #logo-container {
+         background-size: 100%;
+         position: absolute;
+         left: 0;
+         top: 25px;
+         height: 150px;
+         width: 150px;
+    }
+
+    #user-content  {
+        font-size: 125%;
+    }
+
+    #stream-summary,
+    #extra-user-content p {
+        font-size: 150%;
+        font-family: monospace;
+    }
+
+    .chat #video-container, .chat #stream-info, .chat #user-content {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    #app-container #user-content {
+         background-color: #913931 !important;
+    }
+    .chat #chat-container-wrap {
+         display: none !important;
+    }
+    .user-content .user-image {
+         background-color: transparent;
+    }
+    .single-col.chat #user-content {
+         display: block !important;
+    }
+    .user-content-header .streamer-name {
+        font-size: 80%;
+    }
+    #extra-user-content {
+        font-size: 90%;
+    }
+}

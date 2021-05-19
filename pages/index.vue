@@ -18,10 +18,8 @@
 
     <p>May we all remember her life and be "Sterling Strong" because her life and impact on this earth and our hearts was a supernova. May she forever Rest In Peace with our creator who created her perfectly imperfect.</p>
 
-    <p>Sterling's service will be held at Geisen Funeral Home in Crown Point, Indiana, from 2–7 PM on Tuesday, May 18th. We encourage you to wear fun, bright colours and/or "Sterling Strong" gear to represent her strong and colourful life.</p>
-
-    <p class="mb-0">
-      <a href="/files/sterling-strong-swag-design-files.pdf" download>Download the "Sterling Strong"</a> logos and make your own swag!
+    <p class="lead mb-0">
+      Sterling's service was held at Geisen Funeral Home in Crown Point, Indiana, at 2–7 PM on Tuesday, May 18th. Thank you to everyone who has helped support Sterling, us, and our families.
     </p>
 
     <figure class="figure mt-5 mb-4">
@@ -105,7 +103,24 @@
     <horizontal-line />
 
     <h2 class="display-4">
-      "Sterling Sessions"
+      Sterling Strong Swag
+    </h2>
+    <p class="lead">
+      Help share Sterling's story by wearing some Sterling Strong Swag 💁‍♀️
+    </p>
+    <figure class="figure mt-4 mb-4">
+      <a href="https://www.bonfire.com/store/sterling-strong/" target="_blank">
+        <img src="/i/sterling-strong-swag.png" class="mw-100 p-6">
+      </a>
+      <figcaption class="figure-caption text-center mt-0 w-75 mx-auto">
+        Checkout the <a href="https://www.bonfire.com/store/sterling-strong/" target="_blank">Sterling Strong Swag</a>. Purchases will go towards Sterling's Foundation.
+      </figcaption>
+    </figure>
+
+    <horizontal-line />
+
+    <h2 class="display-4">
+      "The Sterling Sessions"
     </h2>
     <p class="lead">
       Music was a huge part of Sterling's life even before she was born.
@@ -136,13 +151,31 @@
       </figcaption>
     </figure>
 
+    <horizontal-line />
+
     <p class="text-center lead">
       We only made 3 songs at the hospital, and we would like to make enough to make an album. Sterling's own reggae album, with songs we played to her throughout her life, with new lyrics to reflect her story. <span class="font-weight-bold">Reggae is the music of healing</span>. If you're interested in working together, please email <abbr title="you have to manually type me into your email field"><span class="d-inline-block mark e-mail" data-user="olleh" data-website="hs.yelsgnik" /></abbr>
     </p>
+
+    <horizontal-line />
+
+    <p class="lead text-center">
+      If Sterling could talk now, she would say these were some of her favourite songs.
+    </p>
+    <div class="text-center my-5">
+      <iframe
+        src="https://open.spotify.com/embed/playlist/1qp5AfSmmKLwefGyaJfLxP"
+        width="300"
+        height="380"
+        frameborder="0"
+        allowtransparency="true"
+        allow="encrypted-media"
+      />
+    </div>
+
     <p class="text-center display-4 h1 my-7">
       Let's keep Sterling's legacy a jammin'
     </p>
-
     <horizontal-line />
   </div>
 </template>
