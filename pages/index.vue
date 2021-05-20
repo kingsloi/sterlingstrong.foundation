@@ -160,10 +160,10 @@
     <horizontal-line />
 
     <p class="lead text-center">
-      If Sterling could talk now, she would say these were some of her favourite songs (or maybe her parents' favourite songs?). I wonder if it's because reggae is relatable to Sterling's life; beautiful songs about pain and suffering wrapped up in an upbeat tempo, and enjoyed for decades.
+      If Sterling could talk now, she would say these were some of her favourite songs (or maybe her parents' favourite songs?). I wonder if it's because reggae is relatable to Sterling's life; beautiful songs about love, happiness, and pain wrapped up in an upbeat tempo, and enjoyed for decades.
     </p>
     <p class="lead text-center">
-      May they bring you smiles like they brought us.
+      May they bring you smiles/moves like they brought us.
     </p>
     <div class="text-center my-5">
       <iframe
