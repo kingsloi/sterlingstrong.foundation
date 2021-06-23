@@ -1,6 +1,17 @@
 <template>
   <div class="container">
     <img src="/i/sterling-strong.png" class="mw-100 d-block mb-5 mx-auto" style="width: 350px;">
+
+    <nav>
+      <ul class="list-inline list-unstyled mb-5 text-center">
+        <li class="list-inline-item"><nuxt-link :to="{ path: '/', hash:'#foundation'}">Foundation</nuxt-link></li>
+        <li class="list-inline-item"><nuxt-link :to="{ path: '/', hash:'#events'}">Events</nuxt-link></li>
+        <li class="list-inline-item"><nuxt-link :to="{ path: '/', hash:'#poptabs'}">Pop Tabs</nuxt-link></li>
+        <li class="list-inline-item"><nuxt-link :to="{ path: '/', hash:'#swag'}">Swag</nuxt-link></li>
+        <li class="list-inline-item"><nuxt-link :to="{ path: '/', hash:'#music'}">Music</nuxt-link></li>
+      </ul>
+    </nav>
+
     <h1>
       Sterling <br class="d-xs-block d-sm-block d-md-none">Strong &#10084;&#xFE0E;
     </h1>
@@ -31,7 +42,7 @@
 
     <horizontal-line />
 
-    <h2 class="display-4">
+    <h2 class="display-4" name="foundation" id="foundation">
       Sterling Strong Foundation
     </h2>
     <p class="lead">
@@ -40,7 +51,7 @@
 
     <p>Things such as:</p>
 
-    <ul>
+    <ul class="fancy-list">
       <li>
         <p class="mb-0 text-uppercase">
           Paying a bill or two
@@ -97,12 +108,118 @@
     </ul>
 
     <p class="lead mt-6 text-center">
-      Any philanthropists/donors interested in helping Stering's Foundation get off the ground are encouraged to email <abbr title="you have to manually type me into your email field"><span class="d-inline-block mark e-mail" data-user="olleh" data-website="hs.yelsgnik" /></abbr>
+      Any philanthropists/donors interested in helping Sterling's Foundation get off the ground are encouraged to email <abbr title="you have to manually type me into your email field"><span class="d-inline-block mark e-mail" data-user="noitadnuof" data-website="hs.yelsgnik" /></abbr>
     </p>
 
     <horizontal-line />
 
-    <h2 class="display-4">
+    <h2 class="display-4" id="events" name="events">
+      Sterling Strong Events
+    </h2>
+    <section class="timeline my-6 mx-md-n5 mx-lg-n10">
+      <div class="containera">
+
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+          <div class="timeline-content">
+            <div class="timeline-img-header mx-n5 mt-n5" style="background-image: url('https://www.indianalandmarks.org/wp-content/uploads/2013/07/8-18-Marquette-Park-Aquatorium-glider-by-Lee-Lewellen.jpg')">
+              <h2>Celebration of Life & Foundation Launch</h2>
+            </div>
+            <div class="date">September 12th 2021</div>
+            <p>Join us for a celebration of Sterling's life, and for the launch of her foundation!</p>
+            <address class="small mb-0">
+              <strong class="brand-4">Gary Aquatorium</strong><br/>
+              6918 Oak Ave<br/> Gary<br/> IN 46403
+            </address>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+          <div class="timeline-content">
+            <h2 class="h4">Blood Donation Drive</h2>
+            <div class="date">August 31st 2021</div>
+            <p>Sterling had 9 surgeries, and needed many blood transfusions, she was also immunocompromised and needed weekly IVIG infusions made from plasma of blood donations.</p>
+            <p class="text-muted ml-3">To make an average yearly dose of IVIG for patients who need it, it takes 250 liters of blood plasma. To make 1 liter of plasma, four whole blood donations are needed. <a href="https://www.ribc.org/news/articles/the-blood-of-1000-donors/" target="_blank" class="small">[source]</a></p>
+            <p>Your blood donation is more than just blood for many people.</p>
+            <p>Help us keep the blood banks full!</p>
+            <address class="small mb-0">
+              <strong class="brand-4">CrossPoint Church</strong><br/>
+              214 S Court St<br/> Crown Point<br/> IN 46307
+            </address>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+          <div class="timeline-content">
+            <h2 class="h4">Sterling Strong Day</h2>
+            <div class="date">June 12th 2021</div>
+            <p>Moda were kind enough to put on a "Sterling Strong" day, they put on a braid bar, did up-do's, face painting, music, raffles, (and more) and the money raised was donated to Sterling's Foundation! Thank you, Moda!</p>
+            <address class="small mb-0">
+              <strong class="d-block brand-4">Moda Beauty Bar</strong>
+              10921 Miami St<br/> Winfield<br/> IN 46307
+              <a href="https://www.modabeautybar.com/" target="_blank" class="d-block">modabeautybar.com</a>
+            </address>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+          <div class="timeline-content">
+            <h2 class="h4">Sterling Strong Day</h2>
+            <div class="date">April 17th 2021</div>
+            <p>Ava Micheal Beautique put on the original "Sterling Strong" day, it included a braid bar, up-do's, music (and more), and the money raised went to Sterling's medical bills. Thank you, Ava Micheal Beautique!</p>
+            <address class="small mb-0">
+              <strong class="d-block brand-4">Ava Micheal Beautique</strong>
+              120 S Main St<br/> Crown Point<br/> IN 46307
+              <a href="https://www.avamichaelbeautique.com/" target="_blank" class="d-block">avamichaelbeautique.com</a>
+            </address>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <horizontal-line />
+
+    <h2 class="display-4 text-center" id="poptabs" name="poptabs">
+      Collecting Pop Tabs
+    </h2>
+
+    <figure class="figure mt-4 mb-4">
+      <img src="/i/collecting-poptab.png" class="mw-100 p-6 w-50 mx-auto d-block" />
+      <figcaption class="figure-caption text-center mt-0 w-75 mx-auto">
+        We're collecting 1 million pop tabs!
+      </figcaption>
+    </figure>
+
+    <p>We are collecting <span class="font-weight-bold brand-4">1 million pop tabs</span> to help give back* to the <span class="font-weight-bold brand-4">Ronald McDonald House</span>. The Ronald McDonald House helped our family by providing a <em>"home away from home"</em> for us. By raising 1 million pop tabs (or <em>789.27 lbs</em>), the Ronald McDonald House in Oak Lawn will add Sterling's name to their <a href="https://rmhccni.org/get-involved/pop-tabs/">Thanks A Million</a> tree.</p>
+
+    <blockquote class="small mb-5 mt-4">
+      <p class="small text-right text-muted pull-right">* "[...] United Scrap Metal, buys the pop tabs [...] at market rate and makes an additional charitable contribution. While the price of aluminum changes regularly, we receive an average of 40 to 55 cents per pound." <a href="https://rmhccni.org/get-involved/pop-tabs/">[source]</a></p>
+    </blockquote>
+
+    <h3>Drop Off Locations</h3>
+    <p>You can drop off bags of pop tabs/ring pulls to the following locations:</p>
+    <ul class="list-inline fancy-list">
+      <li class="list-inline-item mr-5">
+        <address>
+          <span class="font-weight-bold brand-4">Hair Shapers Salon</span><br/>
+          114 N West St #3916<br/> Crown Point<br/> IN 46307
+        </address>
+      </li>
+      <li class="list-inline-item">
+        <address>
+          <span class="font-weight-bold brand-4">HQ</span><br/>
+          7727 Oak Ave<br/> Gary<br/> IN 46403
+        </address>
+      </li>
+    </ul>
+
+    <horizontal-line />
+
+    <h2 class="display-4 text-center" id="swag" name="swag">
       Sterling Strong Swag
     </h2>
     <p class="lead">
@@ -119,7 +236,7 @@
 
     <horizontal-line />
 
-    <h2 class="display-4">
+    <h2 class="display-4" id="music" name="music">
       "The Sterling Sessions"
     </h2>
     <p class="lead">
@@ -154,7 +271,7 @@
     <horizontal-line />
 
     <p class="text-center lead">
-      We only made 3 songs at the hospital, and we would like to make enough to make an album. Sterling's own reggae album, with songs we played to her throughout her life, with new lyrics to reflect her story. <span class="font-weight-bold">Reggae is the music of healing</span>. If you're interested in working together, please email <abbr title="you have to manually type me into your email field"><span class="d-inline-block mark e-mail" data-user="olleh" data-website="hs.yelsgnik" /></abbr>
+      We only made 3 songs at the hospital, and we would like to make enough to make an album. Sterling's own reggae album, with songs we played to her throughout her life, with new lyrics to reflect her story. <span class="font-weight-bold">Reggae is the music of healing</span>. If you're interested in working together, please email <abbr title="you have to manually type me into your email field"><span class="d-inline-block mark e-mail" data-user="noitadnuof" data-website="hs.yelsgnik" /></abbr>
     </p>
 
     <horizontal-line />
@@ -175,6 +292,9 @@
         allow="encrypted-media"
       />
     </div>
+
+    <horizontal-line />
+
     <p class="text-center display-4 h1 my-7">
       Let's keep Sterling's <br>legacy a jammin'
     </p>
