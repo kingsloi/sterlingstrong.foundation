@@ -2,7 +2,7 @@
   <div class="container">
     <img src="/i/sterling-strong.png" class="mw-100 d-block mb-5 mx-auto" style="width: 350px;">
 
-    <nav>
+    <nav class="page-nav">
       <ul class="list-inline list-unstyled mb-5 text-center">
         <li class="list-inline-item"><nuxt-link :to="{ path: '/', hash:'#foundation'}">Foundation</nuxt-link></li>
         <li class="list-inline-item"><nuxt-link :to="{ path: '/', hash:'#events'}">Events</nuxt-link></li>
@@ -122,9 +122,7 @@
         <div class="timeline-item">
           <div class="timeline-img"></div>
           <div class="timeline-content">
-            <div class="timeline-img-header mx-n5 mt-n5" style="background-image: url('https://www.indianalandmarks.org/wp-content/uploads/2013/07/8-18-Marquette-Park-Aquatorium-glider-by-Lee-Lewellen.jpg')">
-              <h2>Celebration of Life & Foundation Launch</h2>
-            </div>
+            <h2 class="h4">Celebration of Life & Foundation Launch</h2>
             <div class="date">September 12th 2021</div>
             <p>Join us for a celebration of Sterling's life, and for the launch of her foundation!</p>
             <address class="small mb-0">
