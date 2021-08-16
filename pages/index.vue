@@ -3,7 +3,7 @@
     <img src="/i/sterling-strong.png" class="mw-100 d-block mb-5 mx-auto" style="width: 350px;">
 
     <nav class="page-nav">
-      <ul class="list-inline list-unstyled mb-5 text-center">
+      <ul class="list-inline list-unstyled mb-5 text-center pl-0">
         <li class="list-inline-item"><nuxt-link :to="{ path: '/', hash:'#foundation'}">Foundation</nuxt-link></li>
         <li class="list-inline-item"><nuxt-link :to="{ path: '/', hash:'#events'}">Events</nuxt-link></li>
         <li class="list-inline-item"><nuxt-link :to="{ path: '/', hash:'#poptabs'}">Pop Tabs</nuxt-link></li>
@@ -30,7 +30,7 @@
     <p>May we all remember her life and be "Sterling Strong" because her life and impact on this earth and our hearts was a supernova. May she forever Rest In Peace with our creator who created her perfectly imperfect.</p>
 
     <p class="lead mb-0">
-      Sterling's service was held at Geisen Funeral Home in Crown Point, Indiana, at 2–7 PM on Tuesday, May 18th. Thank you to everyone who has helped support Sterling, us, and our families during the past year. We couldn't have done it without <em>you</em>.
+      Sterling's service was held at Geisen Funeral Home in Crown Point, Indiana, at 2 PM on Tuesday, May 18th. Thank you to everyone who has helped support Sterling, us, and our families during the past year. We couldn't have done it without <em>you</em>.
     </p>
 
     <figure class="figure mt-5 mb-4">
@@ -119,15 +119,30 @@
     <section class="timeline my-6 mx-md-n5 mx-lg-n10">
       <div class="containera">
 
-        <div class="timeline-item">
+        <div class="timeline-item text-muted">
           <div class="timeline-img"></div>
-          <div class="timeline-content">
-            <h2 class="h4">Celebration of Life & Foundation Launch</h2>
-            <div class="date">September 12th 2021</div>
-            <p>Join us for a celebration of Sterling's life, and for the launch of her foundation!</p>
+          <div class="timeline-content" style="opacity: 0.5;">
+            <h2 class="h4">Sterling Strong Day</h2>
+            <div class="date">April 17th 2021</div>
+            <p>Ava Micheal Beautique put on the original "Sterling Strong" day, it included a braid bar, up-do's, music (and more), and the money raised went to Sterling's medical bills. Thank you, Ava Micheal Beautique!</p>
             <address class="small mb-0">
-              <strong class="brand-4">Gary Aquatorium</strong><br/>
-              6918 Oak Ave<br/> Gary<br/> IN 46403
+              <strong class="d-block brand-4">Ava Micheal Beautique</strong>
+              120 S Main St<br/> Crown Point<br/> IN 46307
+              <a href="https://www.avamichaelbeautique.com/" target="_blank" class="d-block">avamichaelbeautique.com</a>
+            </address>
+          </div>
+        </div>
+
+        <div class="timeline-item text-muted" >
+          <div class="timeline-img"></div>
+          <div class="timeline-content" style="opacity: 0.5;">
+            <h2 class="h4">Sterling Strong Day</h2>
+            <div class="date">June 12th 2021</div>
+            <p>Moda were kind enough to put on a "Sterling Strong" day, they put on a braid bar, did up-do's, face painting, music, raffles, (and more) and the money raised was donated to Sterling's Foundation! Thank you, Moda!</p>
+            <address class="small mb-0">
+              <strong class="d-block brand-4">Moda Beauty Bar</strong>
+              10921 Miami St<br/> Winfield<br/> IN 46307
+              <a href="https://www.modabeautybar.com/" target="_blank" class="d-block">modabeautybar.com</a>
             </address>
           </div>
         </div>
@@ -151,27 +166,12 @@
         <div class="timeline-item">
           <div class="timeline-img"></div>
           <div class="timeline-content">
-            <h2 class="h4">Sterling Strong Day</h2>
-            <div class="date">June 12th 2021</div>
-            <p>Moda were kind enough to put on a "Sterling Strong" day, they put on a braid bar, did up-do's, face painting, music, raffles, (and more) and the money raised was donated to Sterling's Foundation! Thank you, Moda!</p>
+            <h2 class="h4">Celebration of Life & Foundation Launch</h2>
+            <div class="date">September 12th 2021</div>
+            <p>Join us for a celebration of Sterling's life, and for the launch of her foundation!</p>
             <address class="small mb-0">
-              <strong class="d-block brand-4">Moda Beauty Bar</strong>
-              10921 Miami St<br/> Winfield<br/> IN 46307
-              <a href="https://www.modabeautybar.com/" target="_blank" class="d-block">modabeautybar.com</a>
-            </address>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-img"></div>
-          <div class="timeline-content">
-            <h2 class="h4">Sterling Strong Day</h2>
-            <div class="date">April 17th 2021</div>
-            <p>Ava Micheal Beautique put on the original "Sterling Strong" day, it included a braid bar, up-do's, music (and more), and the money raised went to Sterling's medical bills. Thank you, Ava Micheal Beautique!</p>
-            <address class="small mb-0">
-              <strong class="d-block brand-4">Ava Micheal Beautique</strong>
-              120 S Main St<br/> Crown Point<br/> IN 46307
-              <a href="https://www.avamichaelbeautique.com/" target="_blank" class="d-block">avamichaelbeautique.com</a>
+              <strong class="brand-4">Gary Aquatorium</strong><br/>
+              6918 Oak Ave<br/> Gary<br/> IN 46403
             </address>
           </div>
         </div>
@@ -197,6 +197,22 @@
     <blockquote class="small mb-5 mt-4">
       <p class="small text-right text-muted pull-right">* "[...] United Scrap Metal, buys the pop tabs [...] at market rate and makes an additional charitable contribution. While the price of aluminum changes regularly, we receive an average of 40 to 55 cents per pound." <a href="https://rmhccni.org/get-involved/pop-tabs/">[source]</a></p>
     </blockquote>
+
+    <h3 class="mt-4">Progress</h3>
+    <div class="row mb-6">
+      <div class="col-8 align-self-center">
+        <div class="progress" style="height: 3rem;">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+          style="width:  15%;"
+        >
+          <span class="lead">15%</span>
+        </div>
+        </div>
+      </div>
+      <div class="col-4 align-self-center text-right ">
+        <span class="lead font-weight-bold">120/789 lbs</span>
+      </div>
+    </div>
 
     <h3>Drop Off Locations</h3>
     <p>You can drop off bags of pop tabs/ring pulls to the following locations:</p>
