@@ -160,6 +160,7 @@
               <strong class="brand-4">CrossPoint Church</strong><br/>
               214 S Court St<br/> Crown Point<br/> IN 46307
             </address>
+            <p class="mt-3">Please <a target="_blank" href="https://www.redcrossblood.org/give.html/drive-results?order=DATE&range=10&zipSponsor=sterlingstrong">book an appointment</a> to secure your spot!</p>
           </div>
         </div>
 
