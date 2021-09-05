@@ -7,7 +7,7 @@
         <li class="list-inline-item"><nuxt-link :to="{ path: '/', hash:'#foundation'}">Foundation</nuxt-link></li>
         <li class="list-inline-item"><nuxt-link :to="{ path: '/', hash:'#events'}">Events</nuxt-link></li>
         <li class="list-inline-item"><nuxt-link :to="{ path: '/', hash:'#poptabs'}">Pop Tabs</nuxt-link></li>
-        <li class="list-inline-item"><nuxt-link :to="{ path: '/', hash:'#swag'}">Swag</nuxt-link></li>
+        <!-- <li class="list-inline-item"><nuxt-link :to="{ path: '/', hash:'#swag'}">Swag</nuxt-link></li> -->
         <li class="list-inline-item"><nuxt-link :to="{ path: '/', hash:'#music'}">Music</nuxt-link></li>
       </ul>
     </nav>
@@ -108,7 +108,7 @@
     </ul>
 
     <p class="lead mt-6 text-center">
-      Any philanthropists/donors interested in helping Sterling's Foundation get off the ground are encouraged to email <abbr title="you have to manually type me into your email field"><span class="d-inline-block mark e-mail" data-user="noitadnuof" data-website="hs.yelsgnik" /></abbr>
+      Any philanthropists/donors interested in helping are encouraged to email <abbr title="you have to manually type me into your email field!!"><span class="d-inline-block mark e-mail" data-user="olleh" data-website="noitadnuof.gnortsgnilrets" /></abbr>
     </p>
 
     <horizontal-line />
@@ -149,7 +149,7 @@
 
         <div class="timeline-item">
           <div class="timeline-img"></div>
-          <div class="timeline-content">
+          <div class="timeline-content" style="opacity: 0.5;">
             <h2 class="h4">Blood Donation Drive</h2>
             <div class="date">August 31st 2021</div>
             <p>Sterling had 9 surgeries, and needed many blood transfusions, she was also immunocompromised and needed weekly IVIG infusions made from plasma of blood donations.</p>
@@ -232,6 +232,7 @@
       </li>
     </ul>
 
+<!-- Removed clothes
     <horizontal-line />
 
     <h2 class="display-4 text-center" id="swag" name="swag">
@@ -248,7 +249,7 @@
         Check out the <a href="https://www.bonfire.com/store/sterling-strong/" target="_blank">Sterling Strong</a> swag. Purchases will go towards Sterling's Foundation.
       </figcaption>
     </figure>
-
+-->
     <horizontal-line />
 
     <h2 class="display-4" id="music" name="music">
@@ -286,7 +287,7 @@
     <horizontal-line />
 
     <p class="text-center lead">
-      We only made 3 songs at the hospital, and we would like to make enough to make an album. Sterling's own reggae album, with songs we played to her throughout her life, with new lyrics to reflect her story. <span class="font-weight-bold">Reggae is the music of healing</span>. If you're interested in working together, please email <abbr title="you have to manually type me into your email field"><span class="d-inline-block mark e-mail" data-user="noitadnuof" data-website="hs.yelsgnik" /></abbr>
+      We only made 3 songs at the hospital, and we would like to make enough to make an album. Sterling's own reggae album, with songs we played to her throughout her life, with new lyrics to reflect her story. <span class="font-weight-bold">Reggae is the music of healing</span>. If you're interested in working together, please email <abbr title="you have to manually type me into your email field"><span class="d-inline-block mark e-mail" data-user="yelsgnik" data-website="noitadnuof.gnortsgnilrets" /></abbr>
     </p>
 
     <horizontal-line />
@@ -321,6 +322,4 @@
 export default {}
 </script>
 
-<style>
-
-</style>
+<style></style>
