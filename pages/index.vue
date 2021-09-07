@@ -168,7 +168,7 @@
           <div class="timeline-img"></div>
           <div class="timeline-content">
             <h2 class="h4">Celebration of Life & Foundation Launch</h2>
-            <time class="d-block" datetime="2021-09-12 13:00">September 12th 2021 1-5PM</time>
+            <time class="d-block date" datetime="2021-09-12 13:00">September 12th 2021 1-5PM</time>
             <p>Join us for Sterling's 1st birthday, a celebration of her life, and for the launch of her foundation! Live music, charicture drawings, silent auction, and more!</p>
             <address class="small mb-0">
               <strong class="brand-4">Gary Aquatorium</strong><br/>
