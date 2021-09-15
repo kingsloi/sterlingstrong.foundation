@@ -4,11 +4,27 @@
 
     <nav class="page-nav">
       <ul class="list-inline list-unstyled mb-5 text-center pl-0">
-        <li class="list-inline-item"><nuxt-link :to="{ path: '/', hash:'#foundation'}">Foundation</nuxt-link></li>
-        <li class="list-inline-item"><nuxt-link :to="{ path: '/', hash:'#events'}">Events</nuxt-link></li>
-        <li class="list-inline-item"><nuxt-link :to="{ path: '/', hash:'#poptabs'}">Pop Tabs</nuxt-link></li>
+        <li class="list-inline-item">
+          <nuxt-link :to="{ path: '/', hash:'#foundation'}">
+            Foundation
+          </nuxt-link>
+        </li>
+        <li class="list-inline-item">
+          <nuxt-link :to="{ path: '/', hash:'#events'}">
+            Events
+          </nuxt-link>
+        </li>
+        <li class="list-inline-item">
+          <nuxt-link :to="{ path: '/', hash:'#poptabs'}">
+            Pop Tabs
+          </nuxt-link>
+        </li>
         <!-- <li class="list-inline-item"><nuxt-link :to="{ path: '/', hash:'#swag'}">Swag</nuxt-link></li> -->
-        <li class="list-inline-item"><nuxt-link :to="{ path: '/', hash:'#music'}">Music</nuxt-link></li>
+        <li class="list-inline-item">
+          <nuxt-link :to="{ path: '/', hash:'#music'}">
+            Music
+          </nuxt-link>
+        </li>
       </ul>
     </nav>
 
@@ -42,7 +58,7 @@
 
     <horizontal-line />
 
-    <h2 class="display-4" name="foundation" id="foundation">
+    <h2 id="foundation" class="display-4" name="foundation">
       Sterling Strong Foundation
     </h2>
     <p class="lead">
@@ -113,81 +129,116 @@
 
     <horizontal-line />
 
-    <h2 class="display-4" id="events" name="events">
+    <h2 id="events" class="display-4" name="events">
       Sterling Strong Events
     </h2>
     <section class="timeline my-6 mx-md-n5 mx-lg-n10">
       <div class="containera">
-
         <div class="timeline-item text-muted">
-          <div class="timeline-img"></div>
+          <div class="timeline-img" />
           <div class="timeline-content" style="opacity: 0.5;">
-            <h2 class="h4">Sterling Strong Day</h2>
-            <div class="date">April 17th 2021</div>
+            <h2 class="h4">
+              Sterling Strong Day
+            </h2>
+            <div class="date">
+              April 17th 2021
+            </div>
             <p>Ava Micheal Beautique put on the original "Sterling Strong" day, it included a braid bar, up-do's, music (and more), and the money raised went to Sterling's medical bills. Thank you, Ava Micheal Beautique!</p>
             <address class="small mb-0">
               <strong class="d-block brand-4">Ava Micheal Beautique</strong>
-              120 S Main St<br/> Crown Point<br/> IN 46307
+              120 S Main St<br> Crown Point<br> IN 46307
               <a href="https://www.avamichaelbeautique.com/" target="_blank" class="d-block">avamichaelbeautique.com</a>
             </address>
           </div>
         </div>
 
-        <div class="timeline-item text-muted" >
-          <div class="timeline-img"></div>
+        <div class="timeline-item text-muted">
+          <div class="timeline-img" />
           <div class="timeline-content" style="opacity: 0.5;">
-            <h2 class="h4">Sterling Strong Day</h2>
-            <div class="date">June 12th 2021</div>
+            <h2 class="h4">
+              Sterling Strong Day
+            </h2>
+            <div class="date">
+              June 12th 2021
+            </div>
             <p>Moda were kind enough to put on a "Sterling Strong" day, they put on a braid bar, did up-do's, face painting, music, raffles, (and more) and the money raised was donated to Sterling's Foundation! Thank you, Moda!</p>
             <address class="small mb-0">
               <strong class="d-block brand-4">Moda Beauty Bar</strong>
-              10921 Miami St<br/> Winfield<br/> IN 46307
+              10921 Miami St<br> Winfield<br> IN 46307
               <a href="https://www.modabeautybar.com/" target="_blank" class="d-block">modabeautybar.com</a>
             </address>
           </div>
         </div>
 
         <div class="timeline-item">
-          <div class="timeline-img"></div>
+          <div class="timeline-img" />
           <div class="timeline-content" style="opacity: 0.5;">
-            <h2 class="h4">Blood Donation Drive</h2>
-            <div class="date">August 31st 2021</div>
+            <h2 class="h4">
+              Blood Donation Drive
+            </h2>
+            <div class="date">
+              August 31st 2021
+            </div>
             <p>Sterling had 9 surgeries, and needed many blood transfusions, she was also immunocompromised and needed weekly IVIG infusions made from plasma of blood donations.</p>
-            <p class="text-muted ml-3">To make an average yearly dose of IVIG for patients who need it, it takes 250 liters of blood plasma. To make 1 liter of plasma, four whole blood donations are needed. <a href="https://www.ribc.org/news/articles/the-blood-of-1000-donors/" target="_blank" class="small">[source]</a></p>
+            <p class="text-muted ml-3">
+              To make an average yearly dose of IVIG for patients who need it, it takes 250 liters of blood plasma. To make 1 liter of plasma, four whole blood donations are needed. <a href="https://www.ribc.org/news/articles/the-blood-of-1000-donors/" target="_blank" class="small">[source]</a>
+            </p>
             <p>Your blood donation is more than just blood for many people.</p>
             <p>Help us keep the blood banks full!</p>
             <address class="small mb-0">
-              <strong class="brand-4">CrossPoint Church</strong><br/>
-              214 S Court St<br/> Crown Point<br/> IN 46307
+              <strong class="brand-4">CrossPoint Church</strong><br>
+              214 S Court St<br> Crown Point<br> IN 46307
             </address>
-            <p class="mt-3">Please <a target="_blank" href="https://www.redcrossblood.org/give.html/drive-results?order=DATE&range=10&zipSponsor=sterlingstrong">book an appointment</a> to secure your spot!</p>
+            <p class="mt-3">
+              Please <a target="_blank" href="https://www.redcrossblood.org/give.html/drive-results?order=DATE&range=10&zipSponsor=sterlingstrong">book an appointment</a> to secure your spot!
+            </p>
           </div>
         </div>
 
         <div class="timeline-item">
-          <div class="timeline-img"></div>
+          <div class="timeline-img" />
           <div class="timeline-content">
-            <h2 class="h4">Celebration of Life & Foundation Launch</h2>
-            <time class="d-block date" datetime="2021-09-12 13:00">September 12th 2021 1-5PM</time>
-            <p>Join us for Sterling's 1st birthday, a celebration of her life, and for the launch of her foundation! Live music, charicture drawings, silent auction, and more!</p>
-            <address class="small mb-0">
-              <strong class="brand-4">Gary Aquatorium</strong><br/>
-              6918 Oak Ave<br/> Gary<br/> IN 46403
+            <h2 class="h4" style="opacity: 0.5;">
+              Celebration of Life & Foundation Launch
+            </h2>
+            <time class="d-block date" datetime="2021-09-12 13:00" style="opacity: 0.5;">September 12th 2021 1-5PM</time>
+            <p style="opacity: 0.5;">
+              Join us for Sterling's 1st birthday, a celebration of her life, and for the launch of her foundation! Live music, charicture drawings, silent auction, and more!
+            </p>
+
+            <address class="small mb-0" style="opacity: 0.5;">
+              <strong class="brand-4">Gary Aquatorium</strong><br>
+              6918 Oak Ave<br> Gary<br> IN 46403
             </address>
+
+            <p class="mark p-3 my-5 text-center">
+              What an incredible day! We raised oved $4,000 - thank you to everyone helped show their support & contributed!
+            </p>
           </div>
         </div>
 
+        <div class="timeline-item">
+          <div class="timeline-img" />
+          <div class="timeline-content">
+            <h2 class="h4">
+              More events to come!
+            </h2>
+            <p class="mb-0">
+              Stay tuned!
+            </p>
+          </div>
+        </div>
       </div>
     </section>
 
     <horizontal-line />
 
-    <h2 class="display-4 text-center" id="poptabs" name="poptabs">
+    <h2 id="poptabs" class="display-4 text-center" name="poptabs">
       Collecting Pop Tabs
     </h2>
 
     <figure class="figure mt-4 mb-4">
-      <img src="/i/collecting-poptab.png" class="mw-100 p-6 w-50 mx-auto d-block" />
+      <img src="/i/collecting-poptab.png" class="mw-100 p-6 w-50 mx-auto d-block">
       <figcaption class="figure-caption text-center mt-0 w-75 mx-auto">
         We're collecting 1 million pop tabs!
       </figcaption>
@@ -196,22 +247,31 @@
     <p>We are collecting <span class="font-weight-bold brand-4">1 million pop tabs</span> to help give back* to the <span class="font-weight-bold brand-4">Ronald McDonald House</span>. The Ronald McDonald House helped our family by providing a <em>"home away from home"</em> for us. By raising 1 million pop tabs (or <em>789.27 lbs</em>), the Ronald McDonald House in Oak Lawn will add Sterling's name to their <a href="https://rmhccni.org/get-involved/pop-tabs/">Thanks A Million</a> tree.</p>
 
     <blockquote class="small mb-5 mt-4">
-      <p class="small text-right text-muted pull-right">* "[...] United Scrap Metal, buys the pop tabs [...] at market rate and makes an additional charitable contribution. While the price of aluminum changes regularly, we receive an average of 40 to 55 cents per pound." <a href="https://rmhccni.org/get-involved/pop-tabs/">[source]</a></p>
+      <p class="small text-right text-muted pull-right">
+        * "[...] United Scrap Metal, buys the pop tabs [...] at market rate and makes an additional charitable contribution. While the price of aluminum changes regularly, we receive an average of 40 to 55 cents per pound." <a href="https://rmhccni.org/get-involved/pop-tabs/">[source]</a>
+      </p>
     </blockquote>
 
-    <h3 class="mt-4">Progress</h3>
+    <h3 class="mt-4">
+      Progress
+    </h3>
     <div class="row mb-6">
       <div class="col-8 align-self-center">
         <div class="progress" style="height: 3rem;">
-        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-          style="width:  15%;"
-        >
-          <span class="lead">15%</span>
-        </div>
+          <div
+            class="progress-bar progress-bar-striped progress-bar-animated"
+            role="progressbar"
+            :aria-valuenow="(180/789)*100"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            :style="`width: ${ ((180/789)*100).toFixed(0) }%`"
+          >
+            <span class="lead">{{ ((180/789)*100).toFixed(0) }} %</span>
+          </div>
         </div>
       </div>
       <div class="col-4 align-self-center text-right ">
-        <span class="lead font-weight-bold">120/789 lbs</span>
+        <span class="lead font-weight-bold">180/789 lbs</span>
       </div>
     </div>
 
@@ -220,19 +280,19 @@
     <ul class="list-inline fancy-list">
       <li class="list-inline-item mr-5">
         <address>
-          <span class="font-weight-bold brand-4">Hair Shapers Salon</span><br/>
-          114 N West St #3916<br/> Crown Point<br/> IN 46307
+          <span class="font-weight-bold brand-4">Hair Shapers Salon</span><br>
+          114 N West St #3916<br> Crown Point<br> IN 46307
         </address>
       </li>
       <li class="list-inline-item">
         <address>
-          <span class="font-weight-bold brand-4">HQ</span><br/>
-          7727 Oak Ave<br/> Gary<br/> IN 46403
+          <span class="font-weight-bold brand-4">HQ</span><br>
+          7727 Oak Ave<br> Gary<br> IN 46403
         </address>
       </li>
     </ul>
 
-<!-- Removed clothes
+    <!-- Removed clothes
     <horizontal-line />
 
     <h2 class="display-4 text-center" id="swag" name="swag">
@@ -252,7 +312,7 @@
 -->
     <horizontal-line />
 
-    <h2 class="display-4" id="music" name="music">
+    <h2 id="music" class="display-4" name="music">
       "The Sterling Sessions"
     </h2>
     <p class="lead">
@@ -275,14 +335,11 @@
 
     <p>A lovely music therapist at the hospital offered to customise "Speak Softly" into "Speak Softly Sterling" and asked us to write our own lyrics specifically for Sterling. It was a hit! It's since grown and we produced 3 songs together, Sterling's heart beat is in a few of them!</p>
 
-    <figure id="qrcode" class="figure d-block text-center my-5">
-      <a target="_blank" href="https://kingsley.sh/posts/2021/the-sterling-sessions" class="">
-        <img src="/i/sterling-sessions-qr-code.svg" class="figure-img" style="width: 300px;" alt="">
-      </a>
-      <figcaption class="figure-caption">
-        Give them a listen! Take a pic or click the QR code.
-      </figcaption>
-    </figure>
+    <a
+      target="_blank"
+      href="https://kingsley.sh/posts/2021/the-sterling-sessions"
+      class="d-block display-4 mt-5"
+    >"The Sterling Sessions"</a>
 
     <horizontal-line />
 
