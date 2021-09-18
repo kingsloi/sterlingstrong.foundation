@@ -30,6 +30,7 @@ $spacers: (6: (1rem * 4.5), 7: (1rem * 6), 8: (1rem * 9), 9: (1rem * 10), 10: (1
 
 @import "node_modules/bootstrap/scss/bootstrap";
 @import "./timeline";
+@import "./balloons";
 
 @each $breakpoint in map-keys($grid-breakpoints) {
   @include media-breakpoint-up($breakpoint) {
