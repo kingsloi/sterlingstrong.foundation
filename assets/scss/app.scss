@@ -12,6 +12,13 @@ $brand-6: #EFEEEA;
 .brand-5 { color: $brand-5; }
 .brand-6 { color: $brand-6; }
 
+.brand-bg-1 { background-color: $brand-1; }
+.brand-bg-2 { background-color: $brand-2; }
+.brand-bg-3 { background-color: $brand-3; }
+.brand-bg-4 { background-color: $brand-4; }
+.brand-bg-5 { background-color: $brand-5; }
+.brand-bg-6 { background-color: $brand-6; }
+
 $font-family-sans-serif: 'Halant', sans-serif;
 $headings-font-family: 'Pacifico', cursive;
 $headings-color: $brand-3;
@@ -147,4 +154,8 @@ ul {
     to {
       transform: rotate(360deg);
     }
+}
+
+.mark-opacity-75{
+    background-color: rgba($brand-3, 0.90) !important;
 }

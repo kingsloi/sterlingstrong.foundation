@@ -133,7 +133,7 @@
       Sterling Strong Events
     </h2>
     <section class="timeline my-6 mx-md-n5 mx-lg-n10">
-      <div class="containera">
+      <div class="d-flex flex-column-reverse">
         <div class="timeline-item text-muted">
           <div class="timeline-img" />
           <div class="timeline-content" style="opacity: 0.5;">
@@ -197,23 +197,39 @@
 
         <div class="timeline-item">
           <div class="timeline-img" />
-          <div class="timeline-content">
-            <h2 class="h4" style="opacity: 0.5;">
+          <div class="timeline-content position-relative">
+            <h2 class="h4 position-relative " style="opacity: 0.5; z-index: 1000;">
               Celebration of Life & Foundation Launch
             </h2>
-            <time class="d-block date" datetime="2021-09-12 13:00" style="opacity: 0.5;">September 12th 2021 1-5PM</time>
-            <p style="opacity: 0.5;">
+            <time class="d-block date position-relative" datetime="2021-09-12 13:00" style="opacity: 0.5; z-index: 1000;">September 12th 2021 1-5PM</time>
+            <p style="opacity: 0.5; z-index: 1000;">
               Join us for Sterling's 1st birthday, a celebration of her life, and for the launch of her foundation! Live music, charicture drawings, silent auction, and more!
             </p>
 
-            <address class="small mb-0" style="opacity: 0.5;">
+            <address class="small mb-0 position-relative" style="opacity: 0.5; z-index: 1000;">
               <strong class="brand-4">Gary Aquatorium</strong><br>
               6918 Oak Ave<br> Gary<br> IN 46403
             </address>
 
-            <p class="mark p-3 my-5 text-center">
-              What an incredible day! We raised oved $4,000 - thank you to everyone helped show their support & contributed!
+            <p class="mark p-3 my-5 text-center position-relative mark-opacity-75 text-white" style="z-index: 1000;">
+              What an incredible day! We raised over $4,000 - thank you to everyone who helped show their support and/or who has contributed in some way! We appreciate you!
             </p>
+
+            <div class="balloons">
+              <div class="balloon" />
+              <div class="balloon" />
+              <div class="balloon" />
+              <div class="balloon" />
+              <div class="balloon" />
+              <div class="balloon" />
+              <div class="balloon" />
+              <div class="balloon" />
+              <div class="balloon" />
+              <div class="balloon" />
+              <div class="balloon" />
+              <div class="balloon" />
+              <div class="balloon" />
+            </div>
           </div>
         </div>
 
@@ -335,11 +351,16 @@
 
     <p>A lovely music therapist at the hospital offered to customise "Speak Softly" into "Speak Softly Sterling" and asked us to write our own lyrics specifically for Sterling. It was a hit! It's since grown and we produced 3 songs together, Sterling's heart beat is in a few of them!</p>
 
-    <a
-      target="_blank"
-      href="https://kingsley.sh/posts/2021/the-sterling-sessions"
-      class="d-block display-4 mt-5"
-    >"The Sterling Sessions"</a>
+    <div class="d-block">
+      <a
+        class="d-block display-4 mt-6 text-center"
+        target="_blank"
+        href="https://kingsley.sh/posts/2021/the-sterling-sessions"
+      >
+        <small class="d-block" style="font-size: 40%;">visit</small>
+        "The Sterling Sessions"
+      </a>
+    </div>
 
     <horizontal-line />
 
