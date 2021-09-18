@@ -197,7 +197,7 @@
 
         <div class="timeline-item">
           <div class="timeline-img" />
-          <div class="timeline-content position-relative">
+          <div class="timeline-content position-relative overflow-hidden">
             <h2 class="h4 position-relative " style="opacity: 0.5; z-index: 1000;">
               Celebration of Life & Foundation Launch
             </h2>
