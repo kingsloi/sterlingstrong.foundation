@@ -10,6 +10,11 @@
           </nuxt-link>
         </li>
         <li class="list-inline-item">
+          <nuxt-link :to="{ path: '/', hash:'#sterling-raspe'}">
+            Sterling
+          </nuxt-link>
+        </li>
+        <li class="list-inline-item">
           <nuxt-link :to="{ path: '/', hash:'#events'}">
             Events
           </nuxt-link>
@@ -28,39 +33,9 @@
       </ul>
     </nav>
 
-    <h1>
-      Sterling <br class="d-xs-block d-sm-block d-md-none">Strong &#10084;&#xFE0E;
+    <h1 id="foundation" class="display-4" name="foundation">
+      Sterling Strong Foundation &#10084;&#xFE0E;
     </h1>
-    <p class="lead">
-      It's with heavy hearts, we share the news that our sweet girl, Sterling Nova Lynn Raspe, 8 months and 3 days, of Gary, Indiana, passed away peacefully in her parent's arms, surrounded by family at 09:22 AM on May 11th. Born to Madeline Marie Raspe of Crown Point, Indiana and Kingsley Aaron Stafford Raspe, originally of Tamworth, England, at 08:28 AM on September 8th 2020, at Advocate Children's Hospital in Oak Lawn, Illinois.
-    </p>
-
-    <p>Sterling's eight months on earth were quite unique, but her story didn't start there. Her story began when her mom and dad met in 2015. Sterling's life was the missing piece to their parent's love story. As if sharing the other half of Banky's "Balloon Girl" tattoo to remember the loss of their parents wasn't fate enough, Sterling was the little girl with the heart-shaped balloon tying Kingsley and Maddie together for life.</p>
-
-    <p>At her 21-week anatomy scan, Sterling was diagnosed with hypoplastic left heart syndrome variant (HLHS), a rare type of congenital heart disease (CHD). At three months old, she was diagnosed with Kabuki Syndrome, a rare multi-system-affecting genetic condition that can affect the entire body. Sterling, the HLHS Warrior, was also Sterling the Kabuki Queen. Despite being 1 in 700,000,000+, 207 days in the PCICU, 9 surgeries, there was not a second that went by that Sterling was not smothered in love, prayer, or celebration. Although Sterling's life was short, her fight and strength touched the hearts of strangers from all four corners of the world.</p>
-
-    <p>Sterling Nova Lynn Raspe's legacy will live on through the many lives she touched. She was the embodiment of strength, fight, love, hope, peace, and joy. Against all the odds, she taught us to smile through the hard times, laugh at the inappropriate times, love without limits, and see the beauty and worth in all things big and small. She helped raise awareness and shined a light on HLHS, CHD, Kabuki Syndrome, and other rare diseases. Sterling taught us all something.</p>
-
-    <p>The word Sterling comes from the word "steorra", meaning star. The word "nova" means new. Sterling Nova. A little star made new and whole in heaven. A nova is when a star's gas builds up and triggers an explosion making it shine up to a million times brighter than normal.</p>
-
-    <p>May we all remember her life and be "Sterling Strong" because her life and impact on this earth and our hearts was a supernova. May she forever Rest In Peace with our creator who created her perfectly imperfect.</p>
-
-    <p class="lead mb-0">
-      Sterling's service was held at Geisen Funeral Home in Crown Point, Indiana, at 2 PM on Tuesday, May 18th. Thank you to everyone who has helped support Sterling, us, and our families during the past year. We couldn't have done it without <em>you</em>.
-    </p>
-
-    <figure class="figure mt-5 mb-4">
-      <img src="/i/banksys-balloon-girl.gif" class="mw-100">
-      <figcaption class="figure-caption text-center" style="font-size: 65%;">
-        photos by Wendy Swanson Photography
-      </figcaption>
-    </figure>
-
-    <horizontal-line />
-
-    <h2 id="foundation" class="display-4" name="foundation">
-      Sterling Strong Foundation
-    </h2>
     <p class="lead">
       To honour her legacy, Sterling's mom &amp; I will be creating the <span class="font-weight-bold">Sterling Strong Foundation<sup class="small"><abbr title="to be confirmed">*</abbr></sup></span>. Our goals will be to help families in a similar situation to ours: rare/chronic illnesses, long/multiple ICU stays, multi-system affecting conditions, treatment outside of home state, etc. with a few things which we both personally took comfort from during Sterling's 207 days in the ICU, <span class="mission-ampersand">&amp;</span> help bring awareness to, and be an advocates of, congenital heart disease (CHD), Kabuki syndrome, Isomerism/Heterotaxy, and other rare diseases.
     </p>
@@ -126,6 +101,36 @@
     <p class="lead mt-6 text-center">
       Any philanthropists/donors interested in helping are encouraged to email <abbr title="you have to manually type me into your email field!!"><span class="d-inline-block mark e-mail" data-user="olleh" data-website="noitadnuof.gnortsgnilrets" /></abbr>
     </p>
+
+    <horizontal-line />
+
+    <h2 id="sterling-raspe" class="display-4" name="sterling-raspe">
+      Sterling <br class="d-xs-block d-sm-block d-md-none"> Raspe
+    </h2>
+    <p class="lead">
+      It's with heavy hearts, we share the news that our sweet girl, Sterling Nova Lynn Raspe, 8 months and 3 days, of Gary, Indiana, passed away peacefully in her parent's arms, surrounded by family at 09:22 AM on May 11th. Born to Madeline Marie Raspe of Crown Point, Indiana and Kingsley Aaron Stafford Raspe, originally of Tamworth, England, at 08:28 AM on September 8th 2020, at Advocate Children's Hospital in Oak Lawn, Illinois.
+    </p>
+
+    <p>Sterling's eight months on earth were quite unique, but her story didn't start there. Her story began when her mom and dad met in 2015. Sterling's life was the missing piece to their parent's love story. As if sharing the other half of Banky's "Balloon Girl" tattoo to remember the loss of their parents wasn't fate enough, Sterling was the little girl with the heart-shaped balloon tying Kingsley and Maddie together for life.</p>
+
+    <p>At her 21-week anatomy scan, Sterling was diagnosed with hypoplastic left heart syndrome variant (HLHS), a rare type of congenital heart disease (CHD). At three months old, she was diagnosed with Kabuki Syndrome, a rare multi-system-affecting genetic condition that can affect the entire body. Sterling, the HLHS Warrior, was also Sterling the Kabuki Queen. Despite being 1 in 700,000,000+, 207 days in the PCICU, 9 surgeries, there was not a second that went by that Sterling was not smothered in love, prayer, or celebration. Although Sterling's life was short, her fight and strength touched the hearts of strangers from all four corners of the world.</p>
+
+    <p>Sterling Nova Lynn Raspe's legacy will live on through the many lives she touched. She was the embodiment of strength, fight, love, hope, peace, and joy. Against all the odds, she taught us to smile through the hard times, laugh at the inappropriate times, love without limits, and see the beauty and worth in all things big and small. She helped raise awareness and shined a light on HLHS, CHD, Kabuki Syndrome, and other rare diseases. Sterling taught us all something.</p>
+
+    <p>The word Sterling comes from the word "steorra", meaning star. The word "nova" means new. Sterling Nova. A little star made new and whole in heaven. A nova is when a star's gas builds up and triggers an explosion making it shine up to a million times brighter than normal.</p>
+
+    <p>May we all remember her life and be "Sterling Strong" because her life and impact on this earth and our hearts was a supernova. May she forever Rest In Peace with our creator who created her perfectly imperfect.</p>
+
+    <p class="lead mb-0">
+      Sterling's service was held at Geisen Funeral Home in Crown Point, Indiana, at 2 PM on Tuesday, May 18th. Thank you to everyone who has helped support Sterling, us, and our families during the past year. We couldn't have done it without <em>you</em>.
+    </p>
+
+    <figure class="figure mt-5 mb-4">
+      <img src="/i/banksys-balloon-girl.gif" class="mw-100">
+      <figcaption class="figure-caption text-center" style="font-size: 65%;">
+        photos by Wendy Swanson Photography
+      </figcaption>
+    </figure>
 
     <horizontal-line />
 
