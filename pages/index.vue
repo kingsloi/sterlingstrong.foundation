@@ -37,7 +37,7 @@
       Sterling Strong Foundation &#10084;&#xFE0E;
     </h1>
     <p class="lead">
-      To honour her legacy, Sterling's mom &amp; I will be creating the <span class="font-weight-bold">Sterling Strong Foundation<sup class="small"><abbr title="to be confirmed">*</abbr></sup></span>. Our goals will be to help families in a similar situation to ours: rare/chronic illnesses, long/multiple ICU stays, multi-system affecting conditions, treatment outside of home state, etc. with a few things which we both personally took comfort from during Sterling's 207 days in the ICU, <span class="mission-ampersand">&amp;</span> help bring awareness to, and be an advocates of, congenital heart disease (CHD), Kabuki syndrome, Isomerism/Heterotaxy, and other rare diseases.
+      To honour her legacy, Sterling's mom &amp; I will be creating the <span class="font-weight-bold">Sterling Strong Foundation<sup class="small"><abbr title="a 501(c)(3) non-profit pending IRS approval">*</abbr></sup></span>. Our goals will be to help families in a similar situation to ours: rare/chronic illnesses, long/multiple ICU stays, multi-system affecting conditions, treatment outside of home state, etc. with a few things which we both personally took comfort from during Sterling's 207 days in the ICU, <span class="mission-ampersand">&amp;</span> help bring awareness to, and be an advocates of, congenital heart disease (CHD), Kabuki syndrome, Isomerism/Heterotaxy, and other rare diseases.
     </p>
 
     <p>Things such as:</p>
