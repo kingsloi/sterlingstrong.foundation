@@ -38,7 +38,7 @@
         Sterling Strong Foundation &#10084;&#xFE0E;
       </h1>
       <p class="lead">
-        To honour her Sterling's legacy, we will be creating the <span class="font-weight-bold">Sterling Strong Foundation<sup class="small"><abbr title="a 501(c)(3) non-profit pending IRS approval">*</abbr></sup></span>. Our goals will be to help families in a similar situation to ours: rare/chronic illnesses, long/multiple ICU stays, multi-system affecting conditions, treatment outside of home state, etc. with a few things which we both personally took comfort from during Sterling's 207 days in the ICU, <span class="mission-ampersand">&amp;</span> help bring awareness to, and be an advocates of, congenital heart disease (CHD), Kabuki syndrome, Isomerism/Heterotaxy, and other rare diseases.
+        To honour her Sterling's legacy, we will be creating the <span class="font-weight-bold">Sterling Strong Foundation, Inc.<sup class="small"><abbr title="a 501(c)(3) non-profit pending IRS approval">*</abbr></sup></span>. Our goals will be to help families in a similar situation to ours: rare/chronic illnesses, long/multiple ICU stays, multi-system affecting conditions, treatment outside of home state, etc. with a few things which we both personally took comfort from during Sterling's 207 days in the ICU, <span class="mission-ampersand">&amp;</span> help bring awareness to, and be an advocates of, congenital heart disease (CHD), Kabuki syndrome, Isomerism/Heterotaxy, and other rare diseases.
       </p>
 
       <p>Things such as:</p>
@@ -89,7 +89,7 @@
             arts &amp; crafts
           </p>
           <p class="small">
-            We coloured a lot. I took up painting during one stay. <small>(Fun fact, I purchased the most difficult colouring book I could find when Maddie was pregnant. It just happened to be on Japanese-style art, of course it had to be full of Kabuki references.)</small> Staying mindless helps block out the beeps and dings.
+            We coloured a lot. I took up painting during one stay. Staying mindless helps block out the beeps and dings. <small>(Fun fact, I purchased the most difficult colouring book I could find when Maddie was pregnant. It just happened to be on Japanese-style art, of course it had to be full of Kabuki references.)</small>
           </p>
         </li>
         <li>
@@ -97,7 +97,7 @@
             air quality awareness
           </p>
           <p class="small">
-            Accumulating evidence indicates that air pollutants contribute to serious, sometimes fatal damage to the cardiovascular system, even for previously heart-healthy individuals, and further acerbates symptoms for at-risk individuals. You can't treat air pollution with diet, exercise, or medication, so by advocating for better air quality means we're all better off.
+            Accumulating evidence indicates that air pollutants contribute to serious, sometimes fatal damage to the cardiovascular system, even for previously heart-healthy individuals, and further acerbates symptoms for at-risk individuals. You can't treat air pollution with diet, exercise, or medication, so we're all better off by advocating for better air quality.
           </p>
         </li>
         <li>
