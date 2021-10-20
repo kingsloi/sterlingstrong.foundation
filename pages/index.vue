@@ -89,7 +89,15 @@
             arts &amp; crafts
           </p>
           <p class="small">
-            We coloured a lot. I took up painting during one stay. Fun fact, I purchased the most difficult colouring book I could find when Maddie was pregnant. It just happened to be on Japanese-style art, of course it had to be full of Kabuki references. Staying mindless helps block out the beeps and dings.
+            We coloured a lot. I took up painting during one stay. <small>(Fun fact, I purchased the most difficult colouring book I could find when Maddie was pregnant. It just happened to be on Japanese-style art, of course it had to be full of Kabuki references.)</small> Staying mindless helps block out the beeps and dings.
+          </p>
+        </li>
+        <li>
+          <p class="mb-0 text-uppercase">
+            air quality awareness
+          </p>
+          <p class="small">
+            Accumulating evidence indicates that air pollutants contribute to serious, sometimes fatal damage to the cardiovascular system, even for previously heart-healthy individuals, and further acerbates symptoms for at-risk individuals. You can't treat air pollution with diet, exercise, or medication, so by advocating for better air quality means we're all better off.
           </p>
         </li>
         <li>
