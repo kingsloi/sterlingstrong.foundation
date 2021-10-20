@@ -150,7 +150,7 @@
       <a href="https://beadsofcourage.org/" target="_blank" class="d-block"><img src="/i/sterling-beads-of-courage.png" class="w-100"></a>
 
       <figcaption class="figure-caption text-center w-50 mx-auto pt-5">
-        visit <a href="https://beadsofcourage.org/" target="_blank">sterlingstrong.life</a>
+        visit <a href="https://sterlingstrong.life/" target="_blank">sterlingstrong.life</a>
       </figcaption>
     </figure>
 
