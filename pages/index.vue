@@ -97,7 +97,7 @@
             air quality awareness
           </p>
           <p class="small">
-            Accumulating evidence indicates that air pollutants contribute to serious, sometimes fatal damage to the cardiovascular system, even for previously heart-healthy individuals, and further acerbates symptoms for at-risk individuals. You can't treat air pollution with diet, exercise, or medication, so we're all better off by advocating for better air quality.
+            Accumulating evidence indicates that air pollutants contribute to serious, sometimes fatal damage to the cardiovascular system, even for previously heart-healthy individuals, and further acerbates symptoms for already-at-risk individuals, like Sterling. You can't treat air pollution with diet, exercise, or medication, so we're all better off by advocating for better air quality. To raise awareness, we're bringing world-class air quality monitoring, to Gary, Indiana!
           </p>
         </li>
         <li>
