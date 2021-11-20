@@ -474,7 +474,7 @@
 
       <div class="container-fluid px-5 px-lg-7 px-xl-10 footer__socket">
         <p class="mb-0 text-center">
-          Sterling Strong Foundation, Inc. is a recognised 501(c)(3) tax-exempt organisation <small>(pending IRS approval).</small>
+          Sterling Strong Foundation, Inc. is a recognised 501(c)(3) <!--tax-exempt--> organisation <small>(pending IRS approval).</small>
           <strong class="d-none text-muted">Your donation is tax deductible.</strong>
           <small class="d-block">Tax ID/EIN: 87-2210499 | Business ID: 202108271518733</small>
         </p>
