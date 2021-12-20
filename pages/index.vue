@@ -338,12 +338,12 @@
               <div
                 class="progress-bar progress-bar-striped progress-bar-animated"
                 role="progressbar"
-                :aria-valuenow="(311/789)*100"
+                :aria-valuenow="(528/789)*100"
                 aria-valuemin="0"
                 aria-valuemax="100"
-                :style="`width: ${ ((311/789)*100).toFixed(0) }%`"
+                :style="`width: ${ ((528/789)*100).toFixed(0) }%`"
               >
-                <span class="lead">{{ ((311/789)*100).toFixed(0) }} %</span>
+                <span class="lead">{{ ((528/789)*100).toFixed(0) }} %</span>
               </div>
             </div>
           </div>
