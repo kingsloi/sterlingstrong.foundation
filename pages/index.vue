@@ -348,7 +348,7 @@
             </div>
           </div>
           <div class="col-4 align-self-center text-right ">
-            <span class="lead font-weight-bold">311/789 lbs</span>
+            <span class="lead font-weight-bold">528/789 lbs</span>
           </div>
         </div>
 
