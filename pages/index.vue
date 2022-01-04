@@ -24,8 +24,8 @@
               </nuxt-link>
             </li>
             <li class="list-inline-item">
-              <nuxt-link :to="{ path: '/', hash:'#events'}">
-                Events
+              <nuxt-link :to="{ path: '/', hash:'#dates'}">
+                Dates
               </nuxt-link>
             </li>
             <li class="list-inline-item">
@@ -46,10 +46,10 @@
           Sterling Strong Foundation &#10084;&#xFE0E;
         </h1>
         <p class="lead">
-          Introducing the <span class="font-weight-bold">Sterling Strong Foundation, Inc.</span>, a 501(c)(3) non-profit (pending IRS approval), in honour of our daughter, <span class="font-weight-bold">Sterling Raspe</span>.
+          Introducing the <span class="font-weight-bold">Sterling Strong Foundation, Inc.</span>, a <span class="non-profit">501(c)(3)</span> non-profit (pending IRS approval), in honour of <span class="font-weight-bold">Sterling Raspe</span>.
         </p>
         <p class="lead">
-          Our goals will be to help families in a similar situation to ours: rare/chronic illnesses, long/multiple ICU stays, multi-system affecting conditions, treatment outside of home state, etc. with a few things which we  personally took comfort from during Sterling's 207 days in the ICU, <span class="mission-ampersand">&amp;</span> help bring awareness to, and be an advocates of, congenital heart disease (CHD), Kabuki syndrome, Isomerism/Heterotaxy, and other rare diseases.
+          The Foundation's goals will be to help families in a similar situation to Sterling's: rare/chronic illnesses, long/multiple ICU stays, multi-system affecting conditions, treatment outside of home state, etc. with a few things which we <small>(her mom & dad)</small> personally took comfort from during Sterling's 207 days in the ICU, <span class="mission-ampersand">&amp;</span> help bring awareness to, and be an advocates of, congenital heart disease (CHD), Kabuki syndrome, Isomerism/Heterotaxy, and other rare diseases.
         </p>
 
         <p>Things such as:</p>
@@ -158,6 +158,24 @@
 
         <p>Sterling Nova Lynn Raspe's legacy will live on through the many lives she touched. She was the embodiment of strength, fight, love, hope, peace, and joy. Against all the odds, she taught us to smile through the hard times, laugh at the inappropriate times, love without limits, and see the beauty and worth in all things big and small. She helped raise awareness and shined a light on HLHS, CHD, Kabuki Syndrome, and other rare diseases. Sterling taught us all something.</p>
 
+        <figure class="figure mt-7 mb-5 d-block">
+          <client-only>
+            <model-stl
+              class="mb-0"
+              src="/files/sterling-raspe-hand-mold.stl"
+              background-color="#f7f3f0"
+              :gl-options="{ 'Material': { 'Color': 'rgb(255, 0, 0)' } }"
+              :lights="lights"
+              :controls-options="controlsOptions"
+              :position="{ x: 0, y: 0, z: 0 }"
+              :rotation="{ x: 0, y: 0.75, z: 1 }"
+            />
+          </client-only>
+          <figcaption class="figure-caption text-center" style="font-size: 65%;">
+            A 3D scan of Sterling's hand
+          </figcaption>
+        </figure>
+
         <p>The word Sterling comes from the word "steorra", meaning star. The word "nova" means new. Sterling Nova. A little star made new and whole in heaven. A nova is when a star's gas builds up and triggers an explosion making it shine up to a million times brighter than normal.</p>
 
         <p>May we all remember her life and be <span class="font-weight-bold">"Sterling Strong"</span> because her life and impact on this earth and our hearts was a supernova. May she forever Rest In Peace with our creator who created her perfectly imperfect.</p>
@@ -177,7 +195,7 @@
       </div>
 
       <figure class="figure my-10 w-100 sterling-strong-life">
-        <h3 class="figure-caption text-center w-50 mx-auto pb-5">
+        <h3 class="figure-caption text-center w-lg-50 mx-auto pb-5">
           Follow Sterling's journey through her <a href="https://beadsofcourage.org/" target="_blank">Beads of Courage</a>.<br>One bead for every procedure, poke, surgery, day in the ICU<br> etc, etc, etc.
         </h3>
 
@@ -191,8 +209,8 @@
       <div class="container">
         <horizontal-line />
 
-        <h2 id="events" class="display-4" name="events">
-          Sterling Strong Events
+        <h2 id="dates" class="display-4" name="dates">
+          Sterling Strong Dates
         </h2>
         <section class="timeline my-6 mx-md-n5 mx-lg-n10">
           <div class="d-flex flex-column-reverse">
@@ -259,13 +277,15 @@
 
             <div class="timeline-item">
               <div class="timeline-img" />
-              <div class="timeline-content position-relative overflow-hidden">
-                <h2 class="h4 position-relative " style="opacity: 0.5; z-index: 1000;">
+              <div class="timeline-content position-relative overflow-hidden pt-0">
+                <div id="balloon-container" />
+
+                <h2 class="h4 position-relative pt-5" style="opacity: 0.5; z-index: 1000;">
                   Celebration of Life & Foundation Launch
                 </h2>
                 <time class="d-block date position-relative" datetime="2021-09-12 13:00" style="opacity: 0.5; z-index: 1000;">September 12th 2021 1-5PM</time>
                 <p style="opacity: 0.5; z-index: 1000;">
-                  Join us for Sterling's 1st birthday, a celebration of her life, and for the launch of her foundation! Live music, charicture drawings, silent auction, and more!
+                  Join us for Sterling's 1st birthday, a celebration of her life, and for the launch of her foundation! Live music, caricature drawings, silent auction, and more!
                 </p>
 
                 <address class="small mb-0 position-relative" style="opacity: 0.5; z-index: 1000;">
@@ -273,25 +293,38 @@
                   6918 Oak Ave<br> Gary<br> IN 46403
                 </address>
 
-                <p class="mark p-3 my-5 text-center position-relative mark-opacity-75 text-white" style="z-index: 1000;">
+                <p class="mark p-3 mt-5 mb-0 text-center position-relative mark-opacity-75 text-white" style="z-index: 1000;">
                   What an incredible day! We raised over $4,000 - thank you to everyone who helped show their support and/or who has contributed in some way! We appreciate you!
                 </p>
+              </div>
+            </div>
 
-                <div class="balloons">
-                  <div class="balloon" />
-                  <div class="balloon" />
-                  <div class="balloon" />
-                  <div class="balloon" />
-                  <div class="balloon" />
-                  <div class="balloon" />
-                  <div class="balloon" />
-                  <div class="balloon" />
-                  <div class="balloon" />
-                  <div class="balloon" />
-                  <div class="balloon" />
-                  <div class="balloon" />
-                  <div class="balloon" />
-                </div>
+            <div class="timeline-item">
+              <div class="timeline-img" />
+              <div class="timeline-content position-relative overflow-hidden pt-0">
+                <div id="balloon-container" />
+                <h2 class="h4 position-relative pt-5">
+                  Delivered Christmas Care Packages to the PCICU
+                </h2>
+                <time class="d-block date position-relative" datetime="2021-12-19 13:00">December 19th 2021</time>
+                <p>
+                  Maddie and Kingsley delivered 20 home-made boxes full of festive goodies to the PCICU for babies and their families, and their ICU room.
+                </p>
+                <figure class="figure">
+                  <img src="/i/2021-holiday-boxes.jpg" alt="2021 holiday boxes delivered to the PCICU" class="d-block mw-100">
+                  <figcaption class="figure-caption text-center mt-0 mb-0 small">
+                    <small>Santa came early!</small>
+                  </figcaption>
+                </figure>
+                <p>
+                  Full of decorations, twinkle lights, coffee mug, candy, socks, stockings, cookies, books, gift cards, a felt board and more, the boxes were sponsored by families and businesses in Northwest Indiana, and their animals.
+                </p>
+                <p>
+                  We also delivered 20 voice recorders preloaded with wonderful songs, poems, stories, and more, to the PCICU directly, made by Anna Bucci and other fantastic artists.
+                </p>
+                <p class="mb-0">
+                  Doctors, nurses, therapists, and families can use the voice recorders to soothe the babies, playing recordings of their parents voices reading stories, playing music, etc.
+                </p>
               </div>
             </div>
 
@@ -299,7 +332,7 @@
               <div class="timeline-img" />
               <div class="timeline-content">
                 <h2 class="h4">
-                  More events to come!
+                  More to come!
                 </h2>
                 <p class="mb-0">
                   Stay tuned!
@@ -333,7 +366,7 @@
           Progress
         </h3>
         <div class="row mb-6">
-          <div class="col-8 align-self-center">
+          <div class="col-12 col-xl-8 align-self-center">
             <div class="progress" style="height: 3rem;">
               <div
                 class="progress-bar progress-bar-striped progress-bar-animated"
@@ -347,8 +380,8 @@
               </div>
             </div>
           </div>
-          <div class="col-4 align-self-center text-right ">
-            <span class="lead font-weight-bold">528/789 lbs</span>
+          <div class="col-12 mt-3 mt-xl-0 col-xl-4 align-self-center text-right ">
+            <span class="lead font-weight-bold text-muted">528/789 lbs</span>
           </div>
         </div>
 
@@ -474,7 +507,7 @@
 
       <div class="container-fluid px-5 px-lg-7 px-xl-10 footer__socket">
         <p class="mb-0 text-center">
-          Sterling Strong Foundation, Inc. is a recognised 501(c)(3) organisation <small>(pending IRS approval).</small>
+          Sterling Strong Foundation, Inc. is a recognised <span class="non-profit">501(c)(3)</span> organisation <small>(pending IRS approval).</small>
           <strong class="d-none text-muted">Your donation is tax deductible.</strong>
           <small class="d-block">Tax ID/EIN: 87-2210499 | Business ID: 202108271518733</small>
         </p>
@@ -484,7 +517,71 @@
 </template>
 
 <script>
-export default {}
+import { ModelStl } from 'vue-3d-model'
+
+export default {
+  components: { ModelStl },
+  data () {
+    return {
+      lights: [{
+        type: 'DirectionalLight',
+        position: {
+          x: 1,
+          y: 1,
+          z: 1
+        },
+        color: 0xFFFFFF,
+        intensity: 1
+      }, {
+        type: 'DirectionalLight',
+        position: {
+          x: 0,
+          y: -1,
+          z: -1
+        },
+        color: 0xFFFFFF,
+        intensity: 1
+      }],
+
+      controlsOptions: {
+        enablePan: true,
+        enableZoom: false
+      }
+    }
+  },
+
+  mounted () {
+    this.createBalloons(5)
+  },
+
+  methods: {
+    getRandomStyles () {
+      const random = num => Math.floor(Math.random() * num)
+      const r = random(255)
+      const g = random(255)
+      const b = random(255)
+      const mt = random(200)
+      const ml = random(200)
+      const dur = random(5) + 5
+      return `
+        background-color: rgba(${r},${g},${b},0.7);
+        color: rgba(${r},${g},${b},0.7);
+        box-shadow: inset -7px -3px 10px rgba(${r - 10},${g - 10},${b - 10},0.7);
+        margin: ${mt}px 0 0 ${ml}px;
+        animation: float ${dur}s ease-in infinite
+      `
+    },
+
+    createBalloons (num) {
+      const balloonContainer = document.getElementById('balloon-container')
+      for (let i = num; i > 0; i--) {
+        const balloon = document.createElement('div')
+        balloon.className = 'balloon'
+        balloon.style.cssText = this.getRandomStyles(); balloonContainer.append(balloon)
+      }
+    }
+  }
+}
 </script>
 
 <style></style>

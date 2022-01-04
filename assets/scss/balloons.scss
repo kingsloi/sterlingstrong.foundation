@@ -1,171 +1,48 @@
-// https://codepen.io/aexcode/pen/gOwyZZx
-$blue: #2678b4;
-$pink: #f475aa;
-$pinkLight: lighten($pink, 15%);
-$purple: #5a2072;
-$purpleLight: lighten($purple, 55%);
-$white: #e0dde4;
-$yellow: #dda76b;
+#balloon-container {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  position: absolute;
+}
 
-$balloonMd: scale(1.1);
-$balloonLg: scale(1.2);
+.balloon {
+  height: 125px;
+  width: 105px;
+  border-radius: 75% 75% 70% 70%;
+  position: relative;
+  z-index: 100;
+}
 
-$fast: 10s ease-out;
+.balloon:before {
+  content: "";
+  height: 75px;
+  width: 1px;
+  padding: 1px;
+  background-color: #FDFD96;
+  display: block;
+  position: absolute;
+  top: 125px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
 
-.balloons {
+.balloon:after {
+    content: "▲";
+    text-align: center;
+    display: block;
     position: absolute;
-    width: 75%;
-    height: 75%;
-    bottom: -25%;
-    left: 5%;
-    animation: drift 5s 10s ease-in-out infinite;
-
-    @keyframes drift {
-        0% {
-            transform: translate(0%);
-        }
-        50% {
-            transform: translate(0%, 3%);
-        }
-        100% {
-            transform: translate(0%);
-        }
-    }
+    color: inherit;
+    top: 120px;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
-@mixin sharedBalloon {
-    position: absolute;
-    width: 25%;
-    height: 18%;
-    border-radius: 50%;
-
-    &::before {
-        content: "";
-        position: absolute;
-        width: 10%;
-        height: 10%;
-        top: 100%;
-        left: 45%;
-        background: inherit;
-        clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
-        z-index: 2;
-    }
-
-    &::after {
-        content: "";
-        position: absolute;
-        width: 1%;
-        height: 300%;
-        left: 49.5%;
-        top: 100%;
-        background: $white;
-        z-index: 1;
-    }
-}
-
-// purple top right =====
-.balloon:nth-of-type(1) {
-    @include sharedBalloon;
-    right: 2%;
-    top: 5%;
-    background: $purple;
-    transform: rotate(24deg);
-    animation: float $fast;
-}
-
-// light purple top =====
-.balloon:nth-of-type(2) {
-    @include sharedBalloon;
-    top: 1%;
-    right: 25%;
-    background: $purpleLight;
-    transform: $balloonLg rotate(10deg);
-    animation: float $fast;
-}
-
-// white right =====
-.balloon:nth-of-type(4) {
-    @include sharedBalloon;
-    right: 4%;
-    top: 35%;
-    background: $white;
-    transform: $balloonMd rotate(33deg);
-    animation: float $fast;
-}
-
-// light pink right =====
-.balloon:nth-of-type(5) {
-    @include sharedBalloon;
-    top: 18%;
-    right: 8%;
-    background: $pinkLight;
-    transform: $balloonMd rotate(24deg);
-    animation: float $fast;
-}
-
-// purple bottom =====
-.balloon:nth-of-type(6) {
-    @include sharedBalloon;
-    right: 20%;
-    top: 38%;
-    background: $purple;
-    transform: $balloonLg rotate(21deg);
-    animation: float $fast;
-}
-
-// pink right =====
-.balloon:nth-of-type(7) {
-    @include sharedBalloon;
-    right: 30%;
-    top: 15%;
-    background: $pink;
-    transform: $balloonLg rotate(8deg);
-    animation: float $fast;
-}
-
-// purple top =====
-.balloon:nth-of-type(8) {
-    @include sharedBalloon;
-    left: 5%;
-    top: 15%;
-    background: $purple;
-    transform: $balloonLg rotate(-20deg);
-    animation: float $fast;
-}
-
-// white top  =====
-.balloon:nth-of-type(9) {
-    @include sharedBalloon;
-    left: 20%;
-    top: 8%;
-    background: $white;
-    transform: $balloonLg rotate(-8deg);
-    animation: float $fast;
-}
-
-// pink left =====
-.balloon:nth-of-type(10) {
-    @include sharedBalloon;
-    left: 10%;
-    top: 35%;
-    background: $pink;
-    transform: $balloonMd rotate(-21deg);
-    animation: float $fast;
-}
-
-// light purple bottom =====
-.balloon:nth-of-type(11) {
-    @include sharedBalloon;
-    right: 40%;
-    top: 39%;
-    background: $purpleLight;
-    transform: $balloonLg rotate(0deg);
-    animation: float $fast;
-}
-
-// KEYFRAMES ==========
 @keyframes float {
-    0% {
-        top: 25%;
-    }
+  from {transform: translateY(100vh);
+  opacity: 1;}
+  to {transform: translateY(-300vh);
+  opacity: 0;}
 }

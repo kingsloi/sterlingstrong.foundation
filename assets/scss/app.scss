@@ -28,18 +28,25 @@ $link-color: $brand-3;
 $font-size-base: 1.25rem;
 $spacers: (6: (1rem * 4.5), 7: (1rem * 6), 8: (1rem * 9), 9: (1rem * 10), 10: (1rem * 11) );
 
+@import "node_modules/bootstrap/scss/bootstrap";
+
 .sterling-strong-life {
     h3.figure-caption {
         font-family: $font-family-sans-serif;
-        font-size: 1.75rem !important;
+        font-size: 1.25rem !important;
+        @include media-breakpoint-up(md) {
+            font-size: 1.75rem !important;
+        }
     }
     figcaption.figure-caption {
         font-family: $font-family-sans-serif;
-        font-size: 2rem !important;
+        font-size: 1.75rem !important;
+        @include media-breakpoint-up(md) {
+            font-size: 2rem !important;
+        }
     }
 }
 
-@import "node_modules/bootstrap/scss/bootstrap";
 @import "./timeline";
 @import "./balloons";
 
@@ -167,6 +174,10 @@ ul {
     content: attr(data-website) "\0040" attr(data-user);
     unicode-bidi: bidi-override;
     direction: rtl;
+}
+
+.non-profit {
+    letter-spacing: -2px;
 }
 
 @keyframes spin {
