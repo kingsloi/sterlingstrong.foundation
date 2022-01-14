@@ -46,7 +46,7 @@
           Sterling Strong Foundation &#10084;&#xFE0E;
         </h1>
         <p class="lead">
-          Introducing the <span class="font-weight-bold">Sterling Strong Foundation, Inc.</span>, a <span class="non-profit">501(c)(3)</span> non-profit (pending IRS approval), in honour of <span class="font-weight-bold">Sterling Raspe</span>.
+          Introducing the <span class="font-weight-bold">Sterling Strong Foundation, Inc.</span>, a recognised <span class="non-profit">501(c)(3)</span> non-profit, in honour of <span class="font-weight-bold">Sterling Raspe</span>.
         </p>
         <p class="lead">
           The Foundation's goals will be to help families in a similar situation to Sterling's: rare/chronic illnesses, long/multiple ICU stays, multi-system affecting conditions, treatment outside of home state, etc. with a few things which we <small>(her mom & dad)</small> personally took comfort from during Sterling's 207 days in the ICU, <span class="mission-ampersand">&amp;</span> help bring awareness to, and be an advocates of, congenital heart disease (CHD), Kabuki syndrome, Isomerism/Heterotaxy, and other rare diseases.
@@ -141,6 +141,10 @@
           width="100%"
           style="max-width: 420px; min-width: 250px; max-height:none!important; margin: 0 auto; display: block; margin-top: 2rem;"
         />
+
+        <p class="p-3 mt-5 mb-0 text-center position-relative lead" style="z-index: 1000;">
+          Your Donation Is Tax-exempt
+        </p>
 
         <p class="lead mt-6 text-center">
           Any philanthropists interested in helping are encouraged to email <abbr title="you have to manually type me into your email field!"><span class="d-inline-block mark e-mail" data-user="olleh" data-website="noitadnuof.gnortsgnilrets" /></abbr>
@@ -281,7 +285,7 @@
             <div class="timeline-item">
               <div class="timeline-img" />
               <div class="timeline-content position-relative overflow-hidden pt-0">
-                <div id="balloon-container" />
+                <div class="balloon-container" />
 
                 <h2 class="h4 position-relative pt-5" style="opacity: 0.5; z-index: 1000;">
                   Celebration of Life & Foundation Launch
@@ -291,12 +295,12 @@
                   Join us for Sterling's 1st birthday, a celebration of her life, and for the launch of her foundation! Live music, caricature drawings, silent auction, and more!
                 </p>
 
-                <address class="small mb-0 position-relative" style="opacity: 0.5; z-index: 1000;">
+                <address class="small position-relative" style="opacity: 0.5; z-index: 1000;">
                   <strong class="brand-4">Gary Aquatorium</strong><br>
                   6918 Oak Ave<br> Gary<br> IN 46403
                 </address>
 
-                <p class="mark p-3 mt-5 mb-0 text-center position-relative mark-opacity-75 text-white" style="z-index: 1000;">
+                <p class="mark p-3 mb-0 text-center position-relative mark-opacity-75 text-white" style="z-index: 1000;">
                   What an incredible day! We raised over $4,000 - thank you to everyone who helped show their support and/or who has contributed in some way! We appreciate you!
                 </p>
               </div>
@@ -305,9 +309,8 @@
             <div class="timeline-item">
               <div class="timeline-img" />
               <div class="timeline-content position-relative overflow-hidden pt-0">
-                <div id="balloon-container" />
                 <h2 class="h4 position-relative pt-5">
-                  Delivered Christmas Care Packages to the PCICU
+                  Delivered Christmas Care Packages to the PCICU 🎅
                 </h2>
                 <time class="d-block date position-relative" datetime="2021-12-19 13:00">December 19th 2021</time>
                 <p>
@@ -328,6 +331,41 @@
                 <p class="mb-0">
                   Doctors, nurses, therapists, and families can use the voice recorders to soothe the babies, playing recordings of their parents voices reading stories, playing music, etc.
                 </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-img" />
+              <div class="timeline-content position-relative overflow-hidden pt-0">
+                <div class="balloon-container" />
+
+                <h2 class="h4 position-relative pt-5" style="opacity: 0.5; z-index: 1000;">
+                  IRS Approves Tax-Exempt Status
+                </h2>
+                <time class="d-block date position-relative" datetime="2022-01-06 12:00" style="opacity: 0.5; z-index: 1000;">Janurary 6th 2022</time>
+                <p class="mb-0">
+                  Sterling Strong Foundation was recognised as a tax-excempt <span class="non-profit">501(c)(3)</span> nonprofit organisation on both a national and state level with EIN 87-2210499.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-img" />
+              <div class="timeline-content px-0 pb-0 ">
+                <h2 class="h4 px-5">
+                  Sterling's Blood Drive Appears on ABC 7 Chicago
+                </h2>
+                <time class="px-5 d-block date position-relative" datetime="2022-01-07 17:00" style="opacity: 0.5; z-index: 1000;">Janurary 7th 2022</time>
+                <iframe
+                  width="100%"
+                  height="243"
+                  class="mb-n3"
+                  src="https://www.youtube-nocookie.com/embed/x1mfPVt9u_A?controls=0"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                />
               </div>
             </div>
 
@@ -510,7 +548,7 @@
 
       <div class="container-fluid px-5 px-lg-7 px-xl-10 footer__socket">
         <p class="mb-0 text-center">
-          Sterling Strong Foundation, Inc. is a recognised <span class="non-profit">501(c)(3)</span> organisation <small>(pending IRS approval).</small>
+          Sterling Strong Foundation, Inc. is a recognised <span class="non-profit">501(c)(3)</span> organisation <small />
           <strong class="d-none text-muted">Your donation is tax deductible.</strong>
           <small class="d-block">Tax ID/EIN: 87-2210499 | Business ID: 202108271518733</small>
         </p>
@@ -576,11 +614,14 @@ export default {
     },
 
     createBalloons (num) {
-      const balloonContainer = document.getElementById('balloon-container')
-      for (let i = num; i > 0; i--) {
-        const balloon = document.createElement('div')
-        balloon.className = 'balloon'
-        balloon.style.cssText = this.getRandomStyles(); balloonContainer.append(balloon)
+      const containers = document.querySelectorAll('.balloon-container')
+
+      for (const container of containers) {
+        for (let i = num; i > 0; i--) {
+          const balloon = document.createElement('div')
+          balloon.className = 'balloon'
+          balloon.style.cssText = this.getRandomStyles(); container.append(balloon)
+        }
       }
     }
   }
