@@ -412,17 +412,17 @@
               <div
                 class="progress-bar progress-bar-striped progress-bar-animated"
                 role="progressbar"
-                :aria-valuenow="(528/789)*100"
+                :aria-valuenow="(633/789)*100"
                 aria-valuemin="0"
                 aria-valuemax="100"
-                :style="`width: ${ ((528/789)*100).toFixed(0) }%`"
+                :style="`width: ${ ((633/789)*100).toFixed(0) }%`"
               >
-                <span class="lead">{{ ((528/789)*100).toFixed(0) }} %</span>
+                <span class="lead">{{ ((633/789)*100).toFixed(0) }} %</span>
               </div>
             </div>
           </div>
           <div class="col-12 mt-3 mt-xl-0 col-xl-4 align-self-center text-right ">
-            <span class="lead font-weight-bold text-muted">528/789 lbs</span>
+            <span class="lead font-weight-bold text-muted">633/789 lbs</span>
           </div>
         </div>
 
