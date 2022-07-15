@@ -24,8 +24,8 @@
               </nuxt-link>
             </li>
             <li class="list-inline-item">
-              <nuxt-link :to="{ path: '/', hash:'#dates'}">
-                Dates
+              <nuxt-link :to="{ path: '/', hash:'#events'}">
+                Events
               </nuxt-link>
             </li>
             <li class="list-inline-item">
@@ -155,16 +155,16 @@
         <h2 id="sterling-raspe" class="display-4" name="sterling-raspe">
           Sterling <br class="d-xs-block d-sm-block d-md-none"> Raspe
         </h2>
-        <p class="lead">
-          It's with heavy hearts, we share the news that our sweet girl, Sterling Nova Lynn Raspe, 8 months and 3 days, of Gary, Indiana, passed away peacefully in her parent's arms, surrounded by family at 09:22 AM on May 11th. Born to Madeline Marie Raspe of Crown Point, Indiana and Kingsley Aaron Stafford Raspe, originally of Tamworth, England, at 08:28 AM on September 8th 2020, at Advocate Children's Hospital in Oak Lawn, Illinois.
-        </p>
 
-        <p>Sterling's eight months on earth were quite unique, but her story didn't start there. Her story began when her mom and dad met in 2015. Sterling's life was the missing piece to their parent's love story. As if sharing the other half of Banky's "Balloon Girl" tattoo to remember the loss of their parents wasn't fate enough, Sterling was the little girl with the heart-shaped balloon tying Kingsley and Maddie together for life.</p>
+        <p class="lead">
+          Sterling's eight months on earth were quite unique, but her story didn't start there. Her story began when her mom and dad met in 2015. Sterling's life was the missing piece to their parent's love story. As if sharing the other half of Banky's "Balloon Girl" tattoo to remember the loss of their parents wasn't fate enough, Sterling was the little girl with the heart-shaped balloon tying Kingsley and Maddie together for life.
+        </p>
 
         <p>At her 21-week anatomy scan, Sterling was diagnosed with hypoplastic left heart syndrome variant (HLHS), a rare type of congenital heart disease (CHD). At three months old, she was diagnosed with Kabuki Syndrome, a rare multi-system-affecting genetic condition that can affect the entire body. Sterling, the HLHS Warrior, was also Sterling the Kabuki Queen. Despite being 1 in 700,000,000+, 207 days in the PCICU, 9 surgeries, there was not a second that went by that Sterling was not smothered in love, prayer, or celebration. Although Sterling's life was short, her fight and strength touched the hearts of strangers from all four corners of the world.</p>
 
         <p>Sterling Nova Lynn Raspe's legacy will live on through the many lives she touched. She was the embodiment of strength, fight, love, hope, peace, and joy. Against all the odds, she taught us to smile through the hard times, laugh at the inappropriate times, love without limits, and see the beauty and worth in all things big and small. She helped raise awareness and shined a light on HLHS, CHD, Kabuki Syndrome, and other rare diseases. Sterling taught us all something.</p>
 
+        <!--
         <figure class="figure mt-7 mb-5 d-block">
           <client-only>
             <model-stl
@@ -182,14 +182,11 @@
             A 3D scan of Sterling's hand
           </figcaption>
         </figure>
+-->
 
         <p>The word Sterling comes from the word "steorra", meaning star. The word "nova" means new. Sterling Nova. A little star made new and whole in heaven. A nova is when a star's gas builds up and triggers an explosion making it shine up to a million times brighter than normal.</p>
 
         <p>May we all remember her life and be <span class="font-weight-bold">"Sterling Strong"</span> because her life and impact on this earth and our hearts was a supernova. May she forever Rest In Peace with our creator who created her perfectly imperfect.</p>
-
-        <p class="lead mb-0">
-          Sterling's service was held at Geisen Funeral Home in Crown Point, Indiana, at 2 PM on Tuesday, May 18th. Thank you to everyone who has helped support Sterling, us, and our families during the past year. We couldn't have done it without <em>you</em>.
-        </p>
 
         <figure class="figure mt-5 mb-10">
           <img src="/i/banksys-balloon-girl.gif" class="mw-100">
@@ -216,8 +213,8 @@
       <div class="container">
         <horizontal-line />
 
-        <h2 id="dates" class="display-4" name="dates">
-          Sterling Strong Dates
+        <h2 id="events" class="display-4" name="events">
+          Sterling Strong Events
         </h2>
         <section class="timeline my-6 mx-md-n5 mx-lg-n10">
           <div class="d-flex flex-column-reverse">
@@ -308,7 +305,7 @@
 
             <div class="timeline-item">
               <div class="timeline-img" />
-              <div class="timeline-content position-relative overflow-hidden pt-0">
+              <div class="timeline-content position-relative overflow-hidden pt-0" style="opacity: 0.5">
                 <h2 class="h4 position-relative pt-5">
                   Delivered Christmas Care Packages to the PCICU 🎅
                 </h2>
@@ -342,9 +339,9 @@
                 <h2 class="h4 position-relative pt-5" style="opacity: 0.5; z-index: 1000;">
                   IRS Approves Tax-Exempt Status
                 </h2>
-                <time class="d-block date position-relative" datetime="2022-01-06 12:00" style="opacity: 0.5; z-index: 1000;">Janurary 6th 2022</time>
-                <p class="mb-0">
-                  Sterling Strong Foundation was recognised as a tax-excempt <span class="non-profit">501(c)(3)</span> nonprofit organisation on both a national and state level with EIN 87-2210499.
+                <time class="d-block date position-relative" datetime="2022-01-06 12:00" style="opacity: 0.5; z-index: 1000;">January 6th 2022</time>
+                <p class="mb-0" style="opacity: 0.5;">
+                  Sterling Strong Foundation was recognised as a tax-exempt <span class="non-profit">501(c)(3)</span> nonprofit organisation on both a national and state level with EIN 87-2210499.
                 </p>
               </div>
             </div>
@@ -355,7 +352,7 @@
                 <h2 class="h4 px-5">
                   Sterling's Blood Drive Appears on ABC 7 Chicago
                 </h2>
-                <time class="px-5 d-block date position-relative" datetime="2022-01-07 17:00" style="opacity: 0.5; z-index: 1000;">Janurary 7th 2022</time>
+                <time class="px-5 d-block date position-relative" datetime="2022-01-07 17:00" style="opacity: 0.5; z-index: 1000;">January 7th 2022</time>
                 <iframe
                   width="100%"
                   height="243"
@@ -371,13 +368,75 @@
 
             <div class="timeline-item">
               <div class="timeline-img" />
+              <div class="timeline-content px-0 pb-0 ">
+                <h2 class="h4 px-5">
+                  Rainbow Babies Meet
+                </h2>
+                <time class="px-5 d-block date position-relative" datetime="2022-05-18 10:00" style="opacity: 0.5; z-index: 1000;">May 18th 2022</time>
+                <iframe
+                  width="100%"
+                  height="243"
+                  class="mb-n3"
+                  src="https://www.youtube-nocookie.com/embed/9NJSoocz1mU?controls=0&showinfo=0"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                />
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-img" />
+              <div class="timeline-content position-relative overflow-hidden pt-0">
+                <div class="balloon-container" />
+                <h2 class="h4 position-relative pt-5" style="opacity: 0.5; z-index: 1000;">
+                  We Collected 1 Million Pop Tabs!
+                </h2>
+                <time class="px-0 d-block date position-relative" datetime="2022-05-30 10:00" style="opacity: 0.5; z-index: 1000;">May 30th 2022</time>
+                <p class="mb-0" style="opacity: 0.5;">
+                  A big <mark>thank you</mark> to everyone who helped us reach our goal of collecting 1 million pop tabs!
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-img" />
               <div class="timeline-content">
                 <h2 class="h4">
-                  More to come!
+                  Blood Donation Drive
                 </h2>
-                <p class="mb-0">
-                  Stay tuned!
+                <div class="date">
+                  August 30th 2022
+                </div>
+                <p>Last year's blood drive was so successful, we're hosting another!</p>
+                <p>Your blood donation is more than just blood for many people.</p>
+                <p>Help us keep the blood banks full!</p>
+                <address class="small mb-0">
+                  <strong class="brand-4">CrossPoint Church</strong><br>
+                  214 S Court St<br> Crown Point<br> IN 46307
+                </address>
+                <p class="mt-3">
+                  Please <a target="_blank" href="https://www.redcrossblood.org/give.html/drive-results?order=DATE&range=10&zipSponsor=sterlingstrong">book an appointment</a> to secure your spot!
                 </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-img" />
+              <div class="timeline-content position-relative overflow-hidden pt-0">
+                <h2 class="h4 position-relative pt-5" style="z-index: 1000;">
+                  2<sup>nd</sup> Celebration of Life
+                </h2>
+                <time class="d-block date position-relative" datetime="2021-09-12 13:00" style="z-index: 1000;">September 30th 2022 - 3-8PM</time>
+                <p style="z-index: 1000;">
+                  Join us for Sterling's 2nd birthday, and a celebration of her life! Live reggae music, photo booth, games, food &amp; drink, caricature drawings, silent auction, and more!
+                </p>
+
+                <address class="small position-relative" style="z-index: 1000;">
+                  <strong class="brand-4">Gary Aquatorium</strong><br>
+                  6918 Oak Ave<br> Gary<br> IN 46403
+                </address>
               </div>
             </div>
           </div>
@@ -391,11 +450,13 @@
         <figure class="figure mt-4 mb-4">
           <img src="/i/collecting-poptab.png" class="mw-100 p-6 w-50 mx-auto d-block">
           <figcaption class="figure-caption text-center mt-0 w-75 mx-auto">
-            We're collecting 1 million pop tabs!
+            <strike class="d-inline-block">
+              Collecting 1 million pop tabs!
+            </strike> Done!
           </figcaption>
         </figure>
 
-        <p>We are collecting <span class="font-weight-bold brand-4">1 million pop tabs</span> to help give back* to the <span class="font-weight-bold brand-4">Ronald McDonald House</span>. The Ronald McDonald House helped our family by providing a <em>"home away from home"</em> for us. By raising 1 million pop tabs (or <em>789.27 lbs</em>), the Ronald McDonald House in Oak Lawn will add Sterling's name to their <a href="https://rmhccni.org/get-involved/pop-tabs/">Thanks A Million</a> tree.</p>
+        <p>We collected <span class="font-weight-bold brand-4">1 million pop tabs</span> to help give back* to the <span class="font-weight-bold brand-4">Ronald McDonald House</span>. The Ronald McDonald House helped our family by providing a <em>"home away from home"</em> for us. By raising 1 million pop tabs (or <em>789 lbs</em>), the Ronald McDonald House in Oak Lawn will add Sterling's name to their <a href="https://rmhccni.org/get-involved/pop-tabs/">Thanks A Million</a> tree.</p>
 
         <blockquote class="small mb-5 mt-4">
           <p class="small text-right text-muted pull-right">
@@ -403,45 +464,25 @@
           </p>
         </blockquote>
 
-        <h3 class="mt-4">
-          Progress
-        </h3>
         <div class="row mb-6">
           <div class="col-12 col-xl-8 align-self-center">
             <div class="progress" style="height: 3rem;">
               <div
-                class="progress-bar progress-bar-striped progress-bar-animated"
+                class="progress-bar bg-success progress-bar-striped progress-bar-animated"
                 role="progressbar"
-                :aria-valuenow="(528/789)*100"
+                :aria-valuenow="(789/789)*100"
                 aria-valuemin="0"
                 aria-valuemax="100"
-                :style="`width: ${ ((528/789)*100).toFixed(0) }%`"
+                :style="`width: ${ ((789/789)*100).toFixed(0) }%`"
               >
-                <span class="lead">{{ ((528/789)*100).toFixed(0) }} %</span>
+                <span class="lead font-weight-bold">{{ ((789/789)*100).toFixed(0) }} %</span>
               </div>
             </div>
           </div>
           <div class="col-12 mt-3 mt-xl-0 col-xl-4 align-self-center text-right ">
-            <span class="lead font-weight-bold text-muted">528/789 lbs</span>
+            <span class="lead font-weight-bold text-muted">789/789 lbs</span>
           </div>
         </div>
-
-        <h3>Drop Off Locations</h3>
-        <p>You can drop off bags of pop tabs/ring pulls to the following locations:</p>
-        <ul class="list-inline fancy-list">
-          <li class="list-inline-item mr-5">
-            <address>
-              <span class="font-weight-bold brand-4">Hair Shapers Salon</span><br>
-              114 N West St #3916<br> Crown Point<br> IN 46307
-            </address>
-          </li>
-          <li class="list-inline-item">
-            <address>
-              <span class="font-weight-bold brand-4">HQ</span><br>
-              7727 Oak Ave<br> Gary<br> IN 46403
-            </address>
-          </li>
-        </ul>
 
         <!-- Removed clothes
           <horizontal-line />
@@ -500,10 +541,10 @@
         <horizontal-line />
 
         <p class="lead text-center">
-          If Sterling could talk now, (we hope) she would say these were some of her favourite songs (or maybe her parents' favourite songs?). I wonder if it's because reggae is relatable to Sterling's life; beautiful songs about love, happiness, and sorrow, wrapped up in an upbeat tempo, and enjoyed forever.
+          Here's a playlist of some of the music Sterling got to enjoy. Beautiful songs about love, happiness, and sorrow, wrapped up in an upbeat tempo, and enjoyed forever.
         </p>
         <p class="lead text-center">
-          May they bring you smiles/wiggles like they brought us. <span class="font-weight-bold d-block">Reggae is the music of healing</span>
+          May they bring you smiles/wiggles like they brought us.
         </p>
         <div class="text-center my-5">
           <iframe
@@ -558,10 +599,10 @@
 </template>
 
 <script>
-import { ModelStl } from 'vue-3d-model'
+import { ModelStl } from 'vue-3d-model' // eslint-disable-line vue/no-unused-components
 
 export default {
-  components: { ModelStl },
+  components: { ModelStl }, // eslint-disable-line vue/no-unused-components
   data () {
     return {
       lights: [{
