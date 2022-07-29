@@ -428,7 +428,7 @@
                 <h2 class="h4 position-relative pt-5" style="z-index: 1000;">
                   2<sup>nd</sup> Celebration of Life
                 </h2>
-                <time class="d-block date position-relative" datetime="2021-09-12 13:00" style="z-index: 1000;">September 30th 2022 - 3-8PM</time>
+                <time class="d-block date position-relative" datetime="2021-09-12 13:00" style="z-index: 1000;">September 30th 2022 - 6-9PM</time>
                 <p style="z-index: 1000;">
                   Join us for Sterling's 2nd birthday, and a celebration of her life! Live reggae music, photo booth, games, food &amp; drink, caricature drawings, silent auction, and more!
                 </p>
