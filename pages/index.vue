@@ -2,6 +2,68 @@
   <div class="site">
     <main class="sterly-girly">
       <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 small">
+            <p class="d-block text-uppercase mb-0 small">
+              upcoming events
+            </p>
+          </div>
+
+          <div class="col-sm-6 ">
+            <div class="card small">
+              <div class="card-body py-2 px-3">
+                <div class="card-text mb-0">
+                  <div class="event-item">
+                    <div class="event-schedule">
+                      <span class="event-day">30</span>
+                      <div class="event-month-time">
+                        <span>August</span>
+                        <span>1PM-7PM</span>
+                      </div>
+                    </div>
+
+                    <a href="#2022-blood-drive" class="event-title">
+                      Annual Blood Drive
+                    </a>
+
+                    <p class="event-content small">
+                      Book now, and secure your spot!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 mt-3 mt-sm-0">
+            <div class="card small">
+              <div class="card-body py-2 px-3">
+                <div class="card-text mb-0">
+                  <div class="event-item">
+                    <div class="event-schedule">
+                      <span class="event-day">30</span>
+                      <div class="event-month-time">
+                        <span>September</span>
+                        <span>6PM-9PM</span>
+                      </div>
+                    </div>
+
+                    <a href="#2022-annual-fundraiser" class="event-title">
+                      Annual Fundraiser
+                    </a>
+
+                    <p class="event-content small">
+                      Buy tickets in advance, or walk-in!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="mb-5">
+
         <header>
           <img src="/i/sterling-strong.png" class="mw-100 d-block mb-5 mx-auto" style="width: 350px;">
         </header>
@@ -217,7 +279,7 @@
           Sterling Strong Events
         </h2>
         <section class="timeline my-6 mx-md-n5 mx-lg-n10">
-          <div class="d-flex flex-column-reverse">
+          <div class="d-flex flex-column">
             <div class="timeline-item text-muted">
               <div class="timeline-img" />
               <div class="timeline-content" style="opacity: 0.5;">
@@ -400,7 +462,7 @@
               </div>
             </div>
 
-            <div class="timeline-item">
+            <div id="2022-blood-drive" class="timeline-item">
               <div class="timeline-img" />
               <div class="timeline-content">
                 <h2 class="h4">
@@ -416,17 +478,17 @@
                   <strong class="brand-4">CrossPoint Church</strong><br>
                   214 S Court St<br> Crown Point<br> IN 46307
                 </address>
-                <p class="mt-3">
+                <p class="mt-3 mb-0">
                   Please <a target="_blank" href="https://www.redcrossblood.org/give.html/drive-results?order=DATE&range=10&zipSponsor=sterlingstrong">book an appointment</a> to secure your spot!
                 </p>
               </div>
             </div>
 
-            <div class="timeline-item">
+            <div id="2022-annual-fundraiser" class="timeline-item">
               <div class="timeline-img" />
               <div class="timeline-content position-relative overflow-hidden pt-0">
                 <h2 class="h4 position-relative pt-5" style="z-index: 1000;">
-                  2<sup>nd</sup> Celebration of Life
+                  2<sup>nd</sup> Annual Fundraiser
                 </h2>
                 <time class="d-block date position-relative" datetime="2021-09-12 13:00" style="z-index: 1000;">September 30th 2022 - 6-9PM</time>
                 <p style="z-index: 1000;">
@@ -437,6 +499,10 @@
                   <strong class="brand-4">Gary Aquatorium</strong><br>
                   6918 Oak Ave<br> Gary<br> IN 46403
                 </address>
+
+                <p class="mt-3 mb-0">
+                  Save time &amp; <a href="https://sterlingstrongfundraiser.rsvpify.com" target="_blank" class="font-weight-bold ">buy tickets</a> online today!
+                </p>
               </div>
             </div>
           </div>
