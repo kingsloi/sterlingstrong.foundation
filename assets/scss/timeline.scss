@@ -142,23 +142,31 @@ $accent: #FF4081;
 
 .event-content {
   margin-bottom: 0;
+  a {
+    text-decoration: underline;
+  }
 }
 
 .event-schedule {
    display: flex;
 }
 
+.event-title {
+  font-weight: bold;
+  display: block;
+}
+
 .event-day {
-  font-size: 70px;
+  font-size: 50px;
   font-weight: 200;
   margin-right: 1rem;
   line-height: 100%;
 }
 .event-month-time {
   font-weight: 200;
-  font-size: 22px;
+  font-size: 18px;
   display: flex;
-  line-height: 118%;
+  line-height: 100%;
   flex-direction: column;
   justify-content: center;
   span {

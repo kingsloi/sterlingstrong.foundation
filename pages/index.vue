@@ -27,7 +27,7 @@
                     </a>
 
                     <p class="event-content small">
-                      Book now, and secure your spot!
+                      <a target="_blank" href="https://www.redcrossblood.org/give.html/drive-results?order=DATE&range=10&zipSponsor=sterlingstrong">Book now</a> and secure your spot!
                     </p>
                   </div>
                 </div>
@@ -53,7 +53,7 @@
                     </a>
 
                     <p class="event-content small">
-                      Buy tickets in advance, or walk-in!
+                      Save time & <a href="https://sterlingstrongfundraiser.rsvpify.com" target="_blank">buy tickets</a> in advance!
                     </p>
                   </div>
                 </div>
