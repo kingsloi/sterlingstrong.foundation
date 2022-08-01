@@ -469,7 +469,7 @@
                   Blood Donation Drive
                 </h2>
                 <div class="date">
-                  August 30th 2022
+                  August 30th 2022 - 1-7PM
                 </div>
                 <p>Last year's blood drive was so successful, we're hosting another!</p>
                 <p>Your blood donation is more than just blood for many people.</p>
