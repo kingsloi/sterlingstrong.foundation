@@ -252,9 +252,6 @@
 
         <figure class="figure mt-5 mb-10">
           <img src="/i/banksys-balloon-girl.gif" class="mw-100">
-          <figcaption class="figure-caption text-center" style="font-size: 65%;">
-            photos by Wendy Swanson Photography
-          </figcaption>
         </figure>
 
         <horizontal-line />
@@ -654,7 +651,21 @@
       </div>-->
 
       <div class="container-fluid px-5 px-lg-7 px-xl-10 footer__socket">
-        <p class="mb-0 text-center">
+        <ul class="text-center small text-muted mb-5">
+          <li class="pb-3">
+            👏
+          </li>
+          <li>t-shirts, logos, banner designs &mdash; Becca Smith</li>
+          <li>
+            Sterling's photos &mdash; <a href="https://wendyswansonphotography.zenfolio.com/" target="_blank">Wendy Swanson Photography</a>
+          </li>
+          <li>
+            Beads of Courage photos &mdash;
+            <a href="https://www.carihughesphotography.com" target="_blank">Cari Hughs Photography</a>
+          </li>
+        </ul>
+
+        <p class="text-center mb-0">
           Sterling Strong Foundation, Inc. is a recognised <span class="non-profit">501(c)(3)</span> organisation <small />
           <strong class="d-none text-muted">Your donation is tax deductible.</strong>
           <small class="d-block">Tax ID/EIN: 87-2210499 | Business ID: 202108271518733</small>
