@@ -576,7 +576,7 @@
         <p class="lead">
           Music was a huge part of Sterling's life even before she was born.
         </p>
-        <p>We knew her birth and the first few weeks were going to be chaos. We had both read about baby's exposed to music in-utero were soothed by the same music as newborns. It was worth a shot! Lacksley Castell's "Speak Softly" was Sterling's record of choice (she was probably bored of hearing it by the time she was born). We played it whenever she would have any procedure. We think it helped calm her, and us.</p>
+        <p>We knew her birth and the first few weeks were going to be chaos. We had both read about babyies exposed to music in-utero were soothed by the same music as newborns. It was worth a shot! Lacksley Castell's "Speak Softly" was Sterling's record of choice (she was probably bored of hearing it by the time she was born). We played it whenever she would have any procedure. We think it helped calm her, and us.</p>
 
         <div class="text-center my-5">
           <iframe
