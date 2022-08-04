@@ -11,6 +11,7 @@
 
           <div class="col-sm-6 ">
             <div class="card small">
+              <img class="card-img-top" src="/i/sterling-strong-foundation-billboard.jpeg" alt="Card image cap">
               <div class="card-body py-2 px-3">
                 <div class="card-text mb-0">
                   <div class="event-item">
@@ -35,7 +36,7 @@
             </div>
           </div>
 
-          <div class="col-sm-6 mt-3 mt-sm-0">
+          <div class="col-sm-6 mt-3 mt-sm-0 align-items-center align-self-end">
             <div class="card small">
               <div class="card-body py-2 px-3">
                 <div class="card-text mb-0">
@@ -317,7 +318,7 @@
               <div class="timeline-img" />
               <div class="timeline-content" style="opacity: 0.5;">
                 <h2 class="h4">
-                  Blood Donation Drive
+                  Annual Blood Drive
                 </h2>
                 <div class="date">
                   August 31st 2021
@@ -463,7 +464,7 @@
               <div class="timeline-img" />
               <div class="timeline-content">
                 <h2 class="h4">
-                  Blood Donation Drive
+                  Annual Blood Drive
                 </h2>
                 <div class="date">
                   August 30th 2022 - 1-7PM
@@ -475,8 +476,13 @@
                   <strong class="brand-4">CrossPoint Church</strong><br>
                   214 S Court St<br> Crown Point<br> IN 46307
                 </address>
-                <p class="mt-3 mb-0">
+                <p class="mt-3">
                   Please <a target="_blank" href="https://www.redcrossblood.org/give.html/drive-results?order=DATE&range=10&zipSponsor=sterlingstrong">book an appointment</a> to secure your spot!
+                </p>
+
+                <p class="mb-0">
+                  <strong class="brand-4 d-block">Can't make it?</strong>
+                  You can still donate in Sterling's memory at a location/time that's more convenient, visit our <a target="_blank" href="https://sleevesup.redcrossblood.org/campaign/sterling-strong-foundation/">SleevesUp</a> campaign, and pledge to give blood near you!
                 </p>
               </div>
             </div>
