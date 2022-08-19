@@ -657,8 +657,8 @@
       </div>-->
 
       <div class="container-fluid px-5 px-lg-7 px-xl-10 footer__socket">
-        <ul class="text-center text-muted mb-5" style="font-size: 1.1rem;">
-          <li class="pb-3">
+        <ul class="text-center text-muted mb-5 pl-0" style="font-size: 1.1rem;">
+          <li class="pb-3" style="font-size: 2rem;">
             👏
           </li>
           <li>t-shirts, logos, banner designs &mdash; Becca Smith</li>
