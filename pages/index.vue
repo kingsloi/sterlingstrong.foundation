@@ -249,7 +249,7 @@
 
         <p>The word Sterling comes from the word "steorra", meaning star. The word "nova" means new. Sterling Nova. A little star made new and whole in heaven. A nova is when a star's gas builds up and triggers an explosion making it shine up to a million times brighter than normal.</p>
 
-        <p>May we all remember her life and be <span class="font-weight-bold">"Sterling Strong"</span> because her life and impact on this earth and our hearts was a supernova. May she forever Rest In Peace with our creator who created her perfectly imperfect.</p>
+        <p>May we all remember her life and be <span class="font-weight-bold">"Sterling Strong"</span> because her life and impact on this earth and our hearts was a supernova. Created perfectly imperfect, may she forever Rest In Peace.</p>
 
         <figure class="figure mt-5 mb-10">
           <img src="/i/banksys-balloon-girl.gif" class="mw-100">
@@ -657,7 +657,7 @@
       </div>-->
 
       <div class="container-fluid px-5 px-lg-7 px-xl-10 footer__socket">
-        <ul class="text-center small text-muted mb-5">
+        <ul class="text-center text-muted mb-5" style="font-size: 1.1rem;">
           <li class="pb-3">
             👏
           </li>
