@@ -9,35 +9,16 @@
             </p>
           </div>
 
-          <div class="col-sm-6 ">
+          <div class="col-12 mt-3 mt-sm-0 align-items-center align-self-end">
             <div class="card small">
-              <img class="card-img-top" src="/i/sterling-strong-foundation-billboard.jpeg" alt="Card image cap">
-              <div class="card-body py-2 px-3">
-                <div class="card-text mb-0">
-                  <div class="event-item">
-                    <div class="event-schedule">
-                      <span class="event-day">30</span>
-                      <div class="event-month-time">
-                        <span>August</span>
-                        <span>1PM-7PM</span>
-                      </div>
-                    </div>
-
-                    <a href="#2022-blood-drive" class="event-title">
-                      Annual Blood Drive
-                    </a>
-
-                    <p class="event-content small">
-                      <a target="_blank" href="https://www.redcrossblood.org/give.html/drive-results?order=DATE&range=10&zipSponsor=sterlingstrong">Book now</a> and secure your spot!
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-6 mt-3 mt-sm-0 align-items-center align-self-end">
-            <div class="card small">
+              <a href="/files/sterling-strong-foundation-2-groovy-flyer.pdf" download>
+                <img
+                  class="card-img-top"
+                  src="/i/sterling-strong-foundation-2-groovy.jpeg"
+                  alt="Card image cap"
+                  style="height: 315px; object-fit: cover;"
+                >
+              </a>
               <div class="card-body py-2 px-3">
                 <div class="card-text mb-0">
                   <div class="event-item">
@@ -49,8 +30,8 @@
                       </div>
                     </div>
 
-                    <a href="#2022-annual-fundraiser" class="event-title">
-                      Annual Fundraiser
+                    <a href="/files/sterling-strong-foundation-2-groovy-flyer.pdf" class="event-title" download>
+                      Annual Fundraiser - click for flyer
                     </a>
 
                     <p class="event-content small">
@@ -462,7 +443,7 @@
 
             <div id="2022-blood-drive" class="timeline-item">
               <div class="timeline-img" />
-              <div class="timeline-content">
+              <div class="timeline-content" style="opacity: 0.5;">
                 <h2 class="h4">
                   Annual Blood Drive
                 </h2>
