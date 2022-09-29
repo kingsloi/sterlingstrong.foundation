@@ -168,6 +168,31 @@
         <horizontal-line />
 
         <h2 id="donate">
+          Email Updates
+        </h2>
+        <p class="lead">
+          Want to hear our updates? Join our e-mailing list!
+        </p>
+
+        <form action="https://formspree.io/f/xeqdgybk" method="POST" class="form-inline">
+          <label class="sr-only" for="email">Name</label>
+          <input
+            id="email"
+            type="email"
+            class="form-control mb-2 mr-sm-2"
+            name="email"
+            placeholder="your@email.address"
+            style="width: 80%;"
+          >
+          <button type="submit" class="btn btn-primary mb-2">
+            Subscribe
+          </button>
+          <small class="form-text text-muted d-block">We'll never share your email with anyone else, or spam you.</small>
+        </form>
+
+        <horizontal-line />
+
+        <h2 id="donate">
           Interested in helping?
         </h2>
         <p class="lead">
