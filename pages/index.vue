@@ -2,7 +2,9 @@
   <div class="site">
     <main class="sterly-girly">
       <div class="container">
-        <div class="row mb-5">
+
+      <!-- UPCOMING EVENTS
+        <div class="row mb-5 d-none">
           <div class="col-12 small">
             <p class="d-block text-uppercase mb-0 small">
               upcoming events
@@ -45,6 +47,7 @@
         </div>
 
         <hr class="mb-5">
+      -->
 
         <header>
           <img src="/i/sterling-strong.png" class="mw-100 d-block mb-5 mx-auto" style="width: 350px;">
